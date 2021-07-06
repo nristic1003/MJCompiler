@@ -1,0 +1,107 @@
+INFO  20:46:46,044 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:46:46,057 - #2 program
+INFO  20:46:46,057 - #50 Program
+INFO  20:46:46,057 - #50 int
+INFO  20:46:46,058 - #50 v
+INFO  20:46:46,058 - #13 ;
+INFO  20:46:46,059 - #3 {
+INFO  20:46:46,059 - #12 void
+INFO  20:46:46,059 - #50 main
+INFO  20:46:46,059 - #10 (
+INFO  20:46:46,059 - #11 )
+INFO  20:46:46,059 - #50 int
+INFO  20:46:46,060 - #50 a
+INFO  20:46:46,060 - #6 ,
+INFO  20:46:46,060 - #50 b
+INFO  20:46:46,060 - #6 ,
+INFO  20:46:46,060 - #50 c
+INFO  20:46:46,060 - #13 ;
+INFO  20:46:46,060 - #3 {
+INFO  20:46:46,060 - #24 read
+INFO  20:46:46,060 - #10 (
+INFO  20:46:46,060 - #50 a
+INFO  20:46:46,060 - #11 )
+INFO  20:46:46,061 - #13 ;
+INFO  20:46:46,061 - #4 }
+INFO  20:46:46,061 - #4 }
+INFO  20:46:46,063 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Var(
+      SingleV(
+        Type(
+         int
+        ) [Type]
+        SinVar(
+          SingleVar(
+           v
+            NoArray(
+            ) [NoArray]
+          ) [SingleVar]
+        ) [SinVar]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        NoStatements(
+        ) [NoStatements]
+        ReadStatement(
+          SingleDesignator(
+           a
+          ) [SingleDesignator]
+        ) [ReadStatement]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  20:46:46,063 - ===================================
+INFO  20:46:46,064 - Varijabla v ubacena u tabelu simbola na liniji 2
+INFO  20:46:46,064 - Varijabla a ubacena u tabelu simbola na liniji 5
+INFO  20:46:46,065 - Varijabla b ubacena u tabelu simbola na liniji 5
+INFO  20:46:46,065 - Varijabla c ubacena u tabelu simbola na liniji 5
+ERROR 20:46:46,065 - Designator mora biti promenljiva ili niz na liniji 7
+ERROR 20:46:46,065 - Designator mora biti tipa int, char, bool na liniji 7
+INFO  20:46:46,065 -  Print count calls = 0
+INFO  20:46:46,065 -  Deklarisanih promenljivih ima = 0
+INFO  20:46:46,065 - ===================================

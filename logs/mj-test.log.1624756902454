@@ -1,0 +1,171 @@
+INFO  03:18:40,093 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  03:18:40,106 - #2 program
+INFO  03:18:40,106 - #50 Program
+INFO  03:18:40,106 - #50 int
+INFO  03:18:40,107 - #50 v
+INFO  03:18:40,107 - #6 ,
+INFO  03:18:40,108 - #50 c
+INFO  03:18:40,108 - #6 ,
+INFO  03:18:40,108 - #6 ,
+ERROR 03:18:40,108 - 
+Sintaksna greska na liniji 2
+INFO  03:18:40,108 - #6 ,
+INFO  03:18:40,108 - #13 ;
+INFO  03:18:40,108 - #3 {
+INFO  03:18:40,108 - #12 void
+INFO  03:18:40,109 - #50 main
+INFO  03:18:40,109 - #10 (
+INFO  03:18:40,109 - #11 )
+INFO  03:18:40,109 - #50 int
+INFO  03:18:40,110 - #50 a
+INFO  03:18:40,110 - #6 ,
+INFO  03:18:40,110 - #50 b
+INFO  03:18:40,110 - #6 ,
+INFO  03:18:40,110 - #50 c
+INFO  03:18:40,110 - #13 ;
+INFO  03:18:40,110 - #3 {
+INFO  03:18:40,110 - #50 a
+INFO  03:18:40,110 - #7 =
+INFO  03:18:40,111 - #51 2
+INFO  03:18:40,111 - #13 ;
+INFO  03:18:40,111 - #50 b
+INFO  03:18:40,112 - #7 =
+INFO  03:18:40,112 - #50 a
+INFO  03:18:40,112 - #20 +
+INFO  03:18:40,112 - #51 3
+INFO  03:18:40,112 - #20 +
+INFO  03:18:40,112 - #13 ;
+ERROR 03:18:40,112 - 
+Sintaksna greska na liniji 7
+INFO  03:18:40,112 - #25 print
+INFO  03:18:40,112 - #10 (
+INFO  03:18:40,112 - #50 b
+ERROR 03:18:40,112 - Izvrsen oporavak do ; u liniji 7
+INFO  03:18:40,113 - #20 +
+INFO  03:18:40,113 - #51 9
+INFO  03:18:40,113 - #21 *
+INFO  03:18:40,113 - #51 3
+INFO  03:18:40,113 - #11 )
+INFO  03:18:40,113 - #13 ;
+INFO  03:18:40,113 - #4 }
+INFO  03:18:40,113 - #4 }
+INFO  03:18:40,114 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Var(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            NoStatements(
+            ) [NoStatements]
+            DesStatement(
+              AssignDesign(
+                Designator(
+                 a
+                  NoDesignExpression(
+                  ) [NoDesignExpression]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                SingleExpr(
+                  OneTerm(
+                    NoMinus(
+                    ) [NoMinus]
+                    SingleFactor(
+                      NumFactor(
+                       2
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                  ) [OneTerm]
+                ) [SingleExpr]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [MultipleStatements]
+          ErrorStmt(
+          ) [ErrorStmt]
+        ) [MultipleStatements]
+        PrintStatementNoArg(
+          SingleExpr(
+            MultipleTerms(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  DesignFactor(
+                    Designator(
+                     b
+                      NoDesignExpression(
+                      ) [NoDesignExpression]
+                    ) [Designator]
+                  ) [DesignFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+              PlusOperator(
+              ) [PlusOperator]
+              MultipleFactors(
+                SingleFactor(
+                  NumFactor(
+                   9
+                  ) [NumFactor]
+                ) [SingleFactor]
+                MulOperation(
+                ) [MulOperation]
+                NumFactor(
+                 3
+                ) [NumFactor]
+              ) [MultipleFactors]
+            ) [MultipleTerms]
+          ) [SingleExpr]
+        ) [PrintStatementNoArg]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  03:18:40,114 - ===================================
+INFO  03:18:40,115 -  Print count calls = 1
+INFO  03:18:40,115 -  Deklarisanih promenljivih ima = 3

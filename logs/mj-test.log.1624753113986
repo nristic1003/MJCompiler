@@ -1,0 +1,89 @@
+INFO  02:18:16,816 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  02:18:16,831 - #2 program
+INFO  02:18:16,831 - #53 MJProgram
+INFO  02:18:16,831 - #53 int
+INFO  02:18:16,831 - #53 x
+INFO  02:18:16,831 - #35 ;
+INFO  02:18:16,831 - #53 int
+INFO  02:18:16,832 - #53 y
+INFO  02:18:16,832 - #35 ;
+INFO  02:18:16,832 - #42 {
+INFO  02:18:16,832 - #53 int
+INFO  02:18:16,832 - #53 main
+INFO  02:18:16,832 - #38 (
+INFO  02:18:16,832 - #39 )
+INFO  02:18:16,833 - #42 {
+INFO  02:18:16,833 - #53 x
+INFO  02:18:16,833 - #32 =
+INFO  02:18:16,833 - #51 2
+INFO  02:18:16,833 - #35 ;
+INFO  02:18:16,834 - #43 }
+INFO  02:18:16,834 - #43 }
+INFO  02:18:16,834 - Program(
+ MJProgram
+  MultipleVars(
+    MultipleVars(
+      NoVars(
+      ) [NoVars]
+      VarDeclVars(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarIdent(
+           x
+          ) [SingleVarIdent]
+        ) [VarDecl]
+      ) [VarDeclVars]
+    ) [MultipleVars]
+    VarDeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarIdent(
+         y
+        ) [SingleVarIdent]
+      ) [VarDecl]
+    ) [VarDeclVars]
+  ) [MultipleVars]
+  MethodDec(
+    NoMethod(
+    ) [NoMethod]
+    AnyTypeMethod(
+      Type(
+       int
+      ) [Type]
+     main
+      NoFormParams(
+      ) [NoFormParams]
+      NoVars(
+      ) [NoVars]
+      MultipleStatements(
+        NoStm(
+        ) [NoStm]
+        DesignStmt(
+          Design(
+            NoArrayDesignator(
+             x
+            ) [NoArrayDesignator]
+            Expression(
+              NoMinus(
+              ) [NoMinus]
+              SingleTerm(
+                SingleFactor(
+                  NumberFactor(
+                   2
+                  ) [NumberFactor]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [Expression]
+          ) [Design]
+        ) [DesignStmt]
+      ) [MultipleStatements]
+    ) [AnyTypeMethod]
+  ) [MethodDec]
+) [Program]
+INFO  02:18:16,834 - ===================================
+INFO  02:18:16,835 -  Print count calls = 0
+INFO  02:18:16,835 -  Deklarisanih promenljivih ima = 2

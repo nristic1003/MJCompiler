@@ -1,0 +1,38 @@
+INFO  20:42:12,566 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:42:12,580 - #2 program
+INFO  20:42:12,580 - #50 Program
+INFO  20:42:12,580 - #50 int
+INFO  20:42:12,580 - #50 v
+INFO  20:42:12,581 - #13 ;
+INFO  20:42:12,581 - #3 {
+INFO  20:42:12,582 - #12 void
+INFO  20:42:12,582 - #50 main
+INFO  20:42:12,582 - #10 (
+INFO  20:42:12,582 - #11 )
+INFO  20:42:12,582 - #50 int
+INFO  20:42:12,582 - #50 a
+INFO  20:42:12,582 - #6 ,
+INFO  20:42:12,582 - #50 b
+INFO  20:42:12,583 - #6 ,
+INFO  20:42:12,583 - #50 c
+INFO  20:42:12,583 - #13 ;
+INFO  20:42:12,583 - #3 {
+INFO  20:42:12,583 - #30 if
+INFO  20:42:12,583 - #10 (
+INFO  20:42:12,583 - #53 true
+INFO  20:42:12,583 - #11 )
+INFO  20:42:12,584 - #3 {
+ERROR 20:42:12,584 - 
+Sintaksna greska na liniji 6
+INFO  20:42:12,584 - #25 print
+INFO  20:42:12,584 - #10 (
+INFO  20:42:12,584 - #50 a
+INFO  20:42:12,584 - #11 )
+INFO  20:42:12,584 - #13 ;
+INFO  20:42:12,584 - #4 }
+INFO  20:42:12,584 - #4 }
+INFO  20:42:12,585 - #4 }
+ERROR 20:42:12,585 - Izvrsen oporavak do ; u liniji 6
+ERROR 20:42:12,585 - 
+Sintaksna greska na liniji 12
+ERROR 20:42:12,585 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

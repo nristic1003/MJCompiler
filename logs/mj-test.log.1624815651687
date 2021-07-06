@@ -1,0 +1,170 @@
+INFO  19:40:01,344 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:40:01,358 - #2 program
+INFO  19:40:01,358 - #50 Program
+INFO  19:40:01,358 - #50 int
+INFO  19:40:01,358 - #50 v
+INFO  19:40:01,358 - #6 ,
+INFO  19:40:01,359 - #50 c
+INFO  19:40:01,359 - #6 ,
+INFO  19:40:01,359 - #6 ,
+ERROR 19:40:01,359 - 
+Sintaksna greska na liniji 2
+INFO  19:40:01,359 - #6 ,
+INFO  19:40:01,359 - #13 ;
+INFO  19:40:01,359 - #3 {
+INFO  19:40:01,360 - #12 void
+INFO  19:40:01,360 - #50 main
+ERROR 19:40:01,360 - Izvrsen oporavak do ; u liniji 2
+INFO  19:40:01,361 - #10 (
+INFO  19:40:01,361 - #11 )
+INFO  19:40:01,361 - #50 int
+INFO  19:40:01,361 - #50 a
+INFO  19:40:01,361 - #6 ,
+INFO  19:40:01,361 - #50 b
+INFO  19:40:01,362 - #6 ,
+INFO  19:40:01,362 - #50 c
+INFO  19:40:01,362 - #13 ;
+INFO  19:40:01,362 - #3 {
+INFO  19:40:01,362 - #50 a
+INFO  19:40:01,362 - #7 =
+INFO  19:40:01,362 - #51 2
+INFO  19:40:01,363 - #13 ;
+INFO  19:40:01,363 - #50 b
+INFO  19:40:01,363 - #7 =
+INFO  19:40:01,363 - #50 a
+INFO  19:40:01,363 - #20 +
+INFO  19:40:01,363 - #51 3
+INFO  19:40:01,363 - #20 +
+INFO  19:40:01,364 - #13 ;
+ERROR 19:40:01,364 - 
+Sintaksna greska na liniji 7
+INFO  19:40:01,364 - #25 print
+INFO  19:40:01,364 - #10 (
+INFO  19:40:01,364 - #50 b
+ERROR 19:40:01,364 - Izvrsen oporavak do ; u liniji 7
+INFO  19:40:01,364 - #20 +
+INFO  19:40:01,364 - #51 9
+INFO  19:40:01,364 - #21 *
+INFO  19:40:01,364 - #51 3
+INFO  19:40:01,365 - #11 )
+INFO  19:40:01,365 - #13 ;
+INFO  19:40:01,365 - #4 }
+INFO  19:40:01,365 - #4 }
+INFO  19:40:01,367 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Var(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            NoStatements(
+            ) [NoStatements]
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 a
+                ) [SingleDesignator]
+                Assignop(
+                ) [Assignop]
+                SingleExpr(
+                  OneTerm(
+                    NoMinus(
+                    ) [NoMinus]
+                    SingleFactor(
+                      NumFactor(
+                       2
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                  ) [OneTerm]
+                ) [SingleExpr]
+              ) [AssignDesign]
+            ) [DesStatement]
+          ) [MultipleStatements]
+          ErrorStmt(
+          ) [ErrorStmt]
+        ) [MultipleStatements]
+        PrintStatementNoArg(
+          SingleExpr(
+            MultipleTerms(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  DesignFactor(
+                    SingleDesignator(
+                     b
+                    ) [SingleDesignator]
+                  ) [DesignFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+              PlusOperator(
+              ) [PlusOperator]
+              MultipleFactors(
+                SingleFactor(
+                  NumFactor(
+                   9
+                  ) [NumFactor]
+                ) [SingleFactor]
+                MulOperation(
+                ) [MulOperation]
+                NumFactor(
+                 3
+                ) [NumFactor]
+              ) [MultipleFactors]
+            ) [MultipleTerms]
+          ) [SingleExpr]
+        ) [PrintStatementNoArg]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  19:40:01,368 - ===================================
+INFO  19:40:01,369 - Varijabla a ubacena u tabelu simbola na liniji 4
+INFO  19:40:01,369 - Varijabla b ubacena u tabelu simbola na liniji 4
+INFO  19:40:01,369 - Varijabla c ubacena u tabelu simbola na liniji 4
+ERROR 19:40:01,369 - Designator mora biti promenljiva ili niz na liniji 6

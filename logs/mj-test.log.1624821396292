@@ -1,0 +1,46 @@
+INFO  21:16:12,848 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:16:12,861 - #2 program
+INFO  21:16:12,861 - #50 Program
+INFO  21:16:12,861 - #50 int
+INFO  21:16:12,862 - #50 arr
+INFO  21:16:12,862 - #8 [
+INFO  21:16:12,862 - #9 ]
+INFO  21:16:12,862 - #13 ;
+INFO  21:16:12,863 - #5 const
+INFO  21:16:12,863 - #50 bool
+INFO  21:16:12,863 - #50 t
+INFO  21:16:12,863 - #7 =
+INFO  21:16:12,863 - #53 true
+INFO  21:16:12,863 - #13 ;
+INFO  21:16:12,863 - #3 {
+INFO  21:16:12,864 - #12 void
+INFO  21:16:12,864 - #50 main
+INFO  21:16:12,864 - #10 (
+INFO  21:16:12,864 - #11 )
+INFO  21:16:12,864 - #50 int
+INFO  21:16:12,864 - #50 a
+INFO  21:16:12,865 - #6 ,
+INFO  21:16:12,865 - #50 b
+INFO  21:16:12,865 - #6 ,
+INFO  21:16:12,865 - #50 c
+INFO  21:16:12,865 - #13 ;
+INFO  21:16:12,865 - #3 {
+INFO  21:16:12,865 - #30 if
+INFO  21:16:12,865 - #10 (
+INFO  21:16:12,865 - #50 t
+INFO  21:16:12,866 - #11 )
+INFO  21:16:12,866 - #3 {
+ERROR 21:16:12,866 - 
+Sintaksna greska na liniji 7
+INFO  21:16:12,867 - #25 print
+INFO  21:16:12,867 - #10 (
+INFO  21:16:12,867 - #50 a
+INFO  21:16:12,867 - #11 )
+INFO  21:16:12,867 - #13 ;
+INFO  21:16:12,867 - #4 }
+INFO  21:16:12,867 - #4 }
+INFO  21:16:12,867 - #4 }
+ERROR 21:16:12,867 - Izvrsen oporavak do ; u liniji 6
+ERROR 21:16:12,868 - 
+Sintaksna greska na liniji 15
+ERROR 21:16:12,868 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

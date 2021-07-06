@@ -1,0 +1,232 @@
+INFO  22:44:15,883 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\test1.mj
+INFO  22:44:15,896 - #2 program
+INFO  22:44:15,896 - #51 Program
+INFO  22:44:15,896 - #5 const
+INFO  22:44:15,897 - #51 int
+INFO  22:44:15,897 - #51 consta
+INFO  22:44:15,897 - #7 =
+INFO  22:44:15,897 - #52 50
+INFO  22:44:15,897 - #13 ;
+INFO  22:44:15,897 - #51 bool
+INFO  22:44:15,898 - #51 boo
+INFO  22:44:15,898 - #51 boo
+INFO  22:44:15,898 - #13 ;
+INFO  22:44:15,898 - #51 int
+INFO  22:44:15,898 - #51 f
+INFO  22:44:15,898 - #8 [
+ERROR 22:44:15,898 - Izvrsen oporavak do ; u liniji 3
+INFO  22:44:15,899 - #9 ]
+INFO  22:44:15,899 - #6 ,
+INFO  22:44:15,899 - #6 ,
+INFO  22:44:15,899 - #8 [
+INFO  22:44:15,899 - #6 ,
+INFO  22:44:15,900 - #9 ]
+INFO  22:44:15,900 - #6 ,
+INFO  22:44:15,900 - #51 j
+INFO  22:44:15,900 - #13 ;
+INFO  22:44:15,900 - #51 char
+INFO  22:44:15,900 - #8 [
+INFO  22:44:15,900 - #9 ]
+INFO  22:44:15,900 - #6 ,
+INFO  22:44:15,900 - #51 ch
+INFO  22:44:15,900 - #13 ;
+INFO  22:44:15,900 - #51 int
+INFO  22:44:15,900 - #13 ;
+INFO  22:44:15,900 - #51 bool
+INFO  22:44:15,900 - #6 ,
+INFO  22:44:15,900 - #13 ;
+INFO  22:44:15,900 - #3 {
+INFO  22:44:15,900 - #12 void
+INFO  22:44:15,900 - #51 main
+ERROR 22:44:15,900 - Izvrsen oporavak do ; u liniji 4
+INFO  22:44:15,900 - #10 (
+INFO  22:44:15,901 - #11 )
+INFO  22:44:15,901 - #51 int
+INFO  22:44:15,901 - #51 a
+INFO  22:44:15,901 - #6 ,
+INFO  22:44:15,901 - #51 b
+INFO  22:44:15,901 - #6 ,
+INFO  22:44:15,901 - #51 c
+INFO  22:44:15,901 - #13 ;
+INFO  22:44:15,901 - #3 {
+INFO  22:44:15,901 - #51 b
+INFO  22:44:15,902 - #7 =
+INFO  22:44:15,902 - #51 a
+INFO  22:44:15,902 - #20 +
+INFO  22:44:15,902 - #52 3
+INFO  22:44:15,903 - #20 +
+INFO  22:44:15,903 - #53 s
+INFO  22:44:15,903 - #13 ;
+INFO  22:44:15,903 - #51 c
+INFO  22:44:15,903 - #7 =
+INFO  22:44:15,903 - #51 a
+INFO  22:44:15,903 - #18 -
+INFO  22:44:15,903 - #18 -
+INFO  22:44:15,903 - #51 c
+INFO  22:44:15,903 - #13 ;
+INFO  22:44:15,903 - #51 a
+INFO  22:44:15,903 - #7 =
+INFO  22:44:15,903 - #51 b
+ERROR 22:44:15,903 - Izvrsen oporavak do ; 12
+INFO  22:44:15,904 - #51 c
+INFO  22:44:15,904 - #13 ;
+INFO  22:44:15,904 - #51 a
+INFO  22:44:15,904 - #7 =
+INFO  22:44:15,904 - #13 ;
+ERROR 22:44:15,904 - Izvrsen oporavak do ; 13
+INFO  22:44:15,904 - #51 b
+INFO  22:44:15,904 - #7 =
+INFO  22:44:15,904 - #13 ;
+ERROR 22:44:15,904 - Izvrsen oporavak do ; 14
+INFO  22:44:15,904 - #4 }
+INFO  22:44:15,904 - #4 }
+ERROR 22:44:15,904 - Izvrsen oporavak do ; 15
+INFO  22:44:15,907 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      DecListItems(
+        NoDecList(
+        ) [NoDecList]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               consta
+               50
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [DecListItems]
+      Var(
+        VarDeclError(
+        ) [VarDeclError]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            MultipleStatements(
+              MultipleStatements(
+                NoStatements(
+                ) [NoStatements]
+                DesStatement(
+                  AssignDesign(
+                    SingleDesignator(
+                     b
+                    ) [SingleDesignator]
+                    Assignop(
+                    ) [Assignop]
+                    SingleExpr(
+                      MultipleTerms(
+                        MultipleTerms(
+                          OneTerm(
+                            NoMinus(
+                            ) [NoMinus]
+                            SingleFactor(
+                              DesignFactor(
+                                SingleDesignator(
+                                 a
+                                ) [SingleDesignator]
+                              ) [DesignFactor]
+                            ) [SingleFactor]
+                          ) [OneTerm]
+                          PlusOperator(
+                          ) [PlusOperator]
+                          SingleFactor(
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [SingleFactor]
+                        ) [MultipleTerms]
+                        PlusOperator(
+                        ) [PlusOperator]
+                        SingleFactor(
+                          CharFactor(
+                           s
+                          ) [CharFactor]
+                        ) [SingleFactor]
+                      ) [MultipleTerms]
+                    ) [SingleExpr]
+                  ) [AssignDesign]
+                ) [DesStatement]
+              ) [MultipleStatements]
+              ErrorStmt(
+              ) [ErrorStmt]
+            ) [MultipleStatements]
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [MultipleStatements]
+          ErrorStmt(
+          ) [ErrorStmt]
+        ) [MultipleStatements]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:44:15,907 - ===================================
+INFO  22:44:15,908 - Varijabla a ubacena u tabelu simbola na liniji 9
+INFO  22:44:15,908 - Varijabla b ubacena u tabelu simbola na liniji 9
+INFO  22:44:15,908 - Varijabla c ubacena u tabelu simbola na liniji 9
+ERROR 22:44:15,909 - Expr i term moraju biti kompatibilni  na liniji 4 na liniji 4
+ERROR 22:44:15,909 - Expr i term moraju biti int type  na liniji 4 na liniji 4
+INFO  22:44:15,909 - vrednost je 1 na liniji 11
+ERROR 22:44:15,909 - Expr mora biti kompatibilan sa designator na liniji 11 na liniji 11
+INFO  22:44:15,909 -  Print count calls = 0
+INFO  22:44:15,909 -  Deklarisanih promenljivih ima = 3
+INFO  22:44:15,909 - Broj gresaka 3
+INFO  22:44:15,909 - ===================================
+INFO  22:44:15,909 - Broj gresaka u lex 0
+INFO  22:44:15,909 - Broj gresaka u syn 0
+INFO  22:44:15,909 - Broj gresaka u sem 3
+ERROR 22:44:15,909 - Parsiranje NIJE uspesno zavrseno!

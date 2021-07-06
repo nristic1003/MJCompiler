@@ -1,0 +1,120 @@
+INFO  22:07:27,464 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:07:27,478 - #2 program
+INFO  22:07:27,478 - #50 Program
+INFO  22:07:27,478 - #5 const
+INFO  22:07:27,478 - #50 bool
+INFO  22:07:27,478 - #50 test
+INFO  22:07:27,478 - #7 =
+INFO  22:07:27,479 - #53 true
+INFO  22:07:27,479 - #13 ;
+INFO  22:07:27,479 - #3 {
+INFO  22:07:27,479 - #12 void
+INFO  22:07:27,479 - #50 main
+INFO  22:07:27,479 - #10 (
+INFO  22:07:27,480 - #11 )
+INFO  22:07:27,480 - #50 int
+INFO  22:07:27,480 - #50 a
+INFO  22:07:27,480 - #6 ,
+INFO  22:07:27,481 - #50 b
+INFO  22:07:27,481 - #6 ,
+INFO  22:07:27,481 - #50 c
+INFO  22:07:27,481 - #13 ;
+INFO  22:07:27,481 - #3 {
+INFO  22:07:27,481 - #25 print
+INFO  22:07:27,481 - #10 (
+INFO  22:07:27,481 - #50 a
+INFO  22:07:27,482 - #11 )
+INFO  22:07:27,482 - #13 ;
+INFO  22:07:27,482 - #4 }
+INFO  22:07:27,482 - #4 }
+INFO  22:07:27,485 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Constant(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        OneConst(
+          SingleBoolConst(
+           test
+           true
+          ) [SingleBoolConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStatementNoArg(
+          SingleExpr(
+            OneTerm(
+              NoMinus(
+              ) [NoMinus]
+              SingleFactor(
+                DesignFactor(
+                  SingleDesignator(
+                   a
+                  ) [SingleDesignator]
+                ) [DesignFactor]
+              ) [SingleFactor]
+            ) [OneTerm]
+          ) [SingleExpr]
+        ) [PrintStatementNoArg]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:07:27,485 - ===================================
+ERROR 22:07:27,486 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 22:07:27,486 - Ime: test ne predstavlja konstantu 
+INFO  22:07:27,486 - Varijabla a ubacena u tabelu simbola na liniji 4
+INFO  22:07:27,486 - Varijabla b ubacena u tabelu simbola na liniji 4
+INFO  22:07:27,486 - Varijabla c ubacena u tabelu simbola na liniji 4
+ERROR 22:07:27,486 - Pogresni tipovi promenljive na liniji 7
+INFO  22:07:27,486 -  Print count calls = 0
+INFO  22:07:27,486 -  Deklarisanih promenljivih ima = 0
+INFO  22:07:27,486 - ===================================
+INFO  22:07:27,486 - Parsiranje uspesno zavrseno!

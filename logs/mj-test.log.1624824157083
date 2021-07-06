@@ -1,0 +1,148 @@
+INFO  22:02:15,353 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:02:15,368 - #2 program
+INFO  22:02:15,368 - #50 Program
+INFO  22:02:15,368 - #5 const
+INFO  22:02:15,368 - #50 bool
+INFO  22:02:15,368 - #50 t
+INFO  22:02:15,369 - #7 =
+INFO  22:02:15,369 - #53 true
+INFO  22:02:15,369 - #13 ;
+INFO  22:02:15,369 - #3 {
+INFO  22:02:15,369 - #12 void
+INFO  22:02:15,369 - #50 main
+INFO  22:02:15,369 - #10 (
+INFO  22:02:15,370 - #11 )
+INFO  22:02:15,370 - #50 int
+INFO  22:02:15,370 - #50 a
+INFO  22:02:15,370 - #6 ,
+INFO  22:02:15,371 - #50 b
+INFO  22:02:15,371 - #6 ,
+INFO  22:02:15,371 - #50 c
+INFO  22:02:15,371 - #13 ;
+INFO  22:02:15,371 - #3 {
+INFO  22:02:15,371 - #30 if
+INFO  22:02:15,371 - #10 (
+INFO  22:02:15,371 - #50 t
+INFO  22:02:15,372 - #11 )
+INFO  22:02:15,372 - #25 print
+INFO  22:02:15,372 - #10 (
+INFO  22:02:15,372 - #50 x
+INFO  22:02:15,372 - #11 )
+INFO  22:02:15,372 - #13 ;
+INFO  22:02:15,372 - #4 }
+INFO  22:02:15,372 - #4 }
+INFO  22:02:15,375 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Constant(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        OneConst(
+          SingleBoolConst(
+           t
+           true
+          ) [SingleBoolConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        NoStatements(
+        ) [NoStatements]
+        IfStmt(
+          OneCondFact(
+            SingleExpr(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  DesignFactor(
+                    SingleDesignator(
+                     t
+                    ) [SingleDesignator]
+                  ) [DesignFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+            ) [SingleExpr]
+            NoRelOp(
+            ) [NoRelOp]
+          ) [OneCondFact]
+          PrintStatementNoArg(
+            SingleExpr(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  DesignFactor(
+                    SingleDesignator(
+                     x
+                    ) [SingleDesignator]
+                  ) [DesignFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+            ) [SingleExpr]
+          ) [PrintStatementNoArg]
+          NoElseStmt(
+          ) [NoElseStmt]
+        ) [IfStmt]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:02:15,375 - ===================================
+ERROR 22:02:15,376 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 22:02:15,376 - Ime: t ne predstavlja konstantu 
+INFO  22:02:15,376 - Varijabla a ubacena u tabelu simbola na liniji 4
+INFO  22:02:15,377 - Varijabla b ubacena u tabelu simbola na liniji 4
+INFO  22:02:15,377 - Varijabla c ubacena u tabelu simbola na liniji 4
+ERROR 22:02:15,377 - Greska kod designatora na liniji 5
+ERROR 22:02:15,377 - Greska kod designatora na liniji 6
+ERROR 22:02:15,377 - Pogresni tipovi promenljive na liniji 8
+ERROR 22:02:15,377 - Expr mora biti tipa bool  na liniji 4
+INFO  22:02:15,377 -  Print count calls = 0
+INFO  22:02:15,377 -  Deklarisanih promenljivih ima = 0
+INFO  22:02:15,377 - ===================================
+INFO  22:02:15,377 - Parsiranje uspesno zavrseno!

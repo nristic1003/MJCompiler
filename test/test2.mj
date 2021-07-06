@@ -1,0 +1,35 @@
+// test za detekciju koriscenih simbola i kontekstne uslove nivoi A i B
+
+program MJProgram
+
+	
+	
+	const int v = 4;
+	
+	bool b1, b2, b3;
+	int b;
+	
+	int a, arr[];
+{
+
+	void main() char ch; {
+		a = 4;
+		b = 5;
+		b1= true;
+		arr = new int[a * b + b];
+		
+		arr[0] = 1;
+		arr[3] = 4;
+		arr[3]++;
+		read(ch);
+		
+		if(b1)
+			print(a)
+		else
+			if(a > 3) print(a)
+			else print(arr[3])
+	 
+		
+		return;
+	}
+}

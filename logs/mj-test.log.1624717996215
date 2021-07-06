@@ -1,0 +1,18 @@
+INFO  16:38:37,739 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:38:37,742 - #2 program
+INFO  16:38:37,742 - #51 Program
+INFO  16:38:37,742 - #51 int
+INFO  16:38:37,742 - #51 x
+INFO  16:38:37,742 - #13 ;
+INFO  16:38:37,742 - #3 {
+INFO  16:38:37,742 - #12 void
+INFO  16:38:37,742 - #51 main
+INFO  16:38:37,742 - #10 (
+INFO  16:38:37,742 - #11 )
+INFO  16:38:37,742 - #3 {
+INFO  16:38:37,742 - #51 x
+INFO  16:38:37,742 - #7 =
+INFO  16:38:37,742 - #37 1
+INFO  16:38:37,742 - #13 ;
+INFO  16:38:37,742 - #4 }
+INFO  16:38:37,742 - #4 }

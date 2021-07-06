@@ -1,0 +1,153 @@
+INFO  02:32:46,236 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  02:32:46,250 - #2 program
+INFO  02:32:46,250 - #49 Program
+INFO  02:32:46,250 - #49 int
+INFO  02:32:46,250 - #49 v
+INFO  02:32:46,251 - #48 ;
+INFO  02:32:46,251 - #3 {
+INFO  02:32:46,251 - #12 void
+INFO  02:32:46,251 - #49 main
+INFO  02:32:46,251 - #10 (
+INFO  02:32:46,251 - #11 )
+INFO  02:32:46,252 - #49 int
+INFO  02:32:46,252 - #49 a
+INFO  02:32:46,252 - #6 ,
+INFO  02:32:46,252 - #49 b
+INFO  02:32:46,252 - #6 ,
+INFO  02:32:46,252 - #49 c
+INFO  02:32:46,252 - #48 ;
+INFO  02:32:46,252 - #3 {
+INFO  02:32:46,252 - #49 a
+INFO  02:32:46,252 - #7 =
+INFO  02:32:46,252 - #50 2
+INFO  02:32:46,253 - #48 ;
+INFO  02:32:46,253 - #49 b
+INFO  02:32:46,253 - #7 =
+INFO  02:32:46,253 - #49 a
+INFO  02:32:46,253 - #19 +
+INFO  02:32:46,253 - #50 3
+INFO  02:32:46,254 - #48 ;
+INFO  02:32:46,254 - #24 print
+INFO  02:32:46,254 - #10 (
+INFO  02:32:46,254 - #49 b
+INFO  02:32:46,254 - #11 )
+INFO  02:32:46,254 - #48 ;
+INFO  02:32:46,254 - #4 }
+INFO  02:32:46,254 - #4 }
+INFO  02:32:46,255 - Program(
+ Program
+  MultipleVars(
+    NoVars(
+    ) [NoVars]
+    VarDeclVars(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        SingleVarIdent(
+         v
+        ) [SingleVarIdent]
+      ) [VarDecl]
+    ) [VarDeclVars]
+  ) [MultipleVars]
+  MethodDec(
+    VoidMethod(
+     main
+      NoFormParams(
+      ) [NoFormParams]
+      MultipleVars(
+        NoVars(
+        ) [NoVars]
+        VarDeclVars(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            MultipleVarsIdent(
+              MultipleVarsIdent(
+                SingleVarIdent(
+                 a
+                ) [SingleVarIdent]
+               b
+              ) [MultipleVarsIdent]
+             c
+            ) [MultipleVarsIdent]
+          ) [VarDecl]
+        ) [VarDeclVars]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            NoStm(
+            ) [NoStm]
+            DesignStmt(
+              Design(
+                NoArrayDesignator(
+                 a
+                ) [NoArrayDesignator]
+                Expression(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTerm(
+                    SingleFactor(
+                      NumberFactor(
+                       2
+                      ) [NumberFactor]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [Expression]
+              ) [Design]
+            ) [DesignStmt]
+          ) [MultipleStatements]
+          DesignStmt(
+            Design(
+              NoArrayDesignator(
+               b
+              ) [NoArrayDesignator]
+              Expression(
+                NoMinus(
+                ) [NoMinus]
+                MultipleTerms(
+                  SingleTerm(
+                    SingleFactor(
+                      DesignatorFactor(
+                        NoArrayDesignator(
+                         a
+                        ) [NoArrayDesignator]
+                      ) [DesignatorFactor]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                  PlusOperation(
+                  ) [PlusOperation]
+                  SingleFactor(
+                    NumberFactor(
+                     3
+                    ) [NumberFactor]
+                  ) [SingleFactor]
+                ) [MultipleTerms]
+              ) [Expression]
+            ) [Design]
+          ) [DesignStmt]
+        ) [MultipleStatements]
+        PrintNoArgs(
+          Expression(
+            NoMinus(
+            ) [NoMinus]
+            SingleTerm(
+              SingleFactor(
+                DesignatorFactor(
+                  NoArrayDesignator(
+                   b
+                  ) [NoArrayDesignator]
+                ) [DesignatorFactor]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Expression]
+        ) [PrintNoArgs]
+      ) [MultipleStatements]
+    ) [VoidMethod]
+  ) [MethodDec]
+) [Program]
+INFO  02:32:46,255 - ===================================
+INFO  02:32:46,255 -  Print count calls = 0
+INFO  02:32:46,256 -  Deklarisanih promenljivih ima = 2

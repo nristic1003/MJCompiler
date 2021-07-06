@@ -1,0 +1,184 @@
+INFO  13:57:05,101 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  13:57:05,114 - #2 program
+INFO  13:57:05,114 - #50 Program
+INFO  13:57:05,114 - #5 const
+INFO  13:57:05,115 - #50 int
+INFO  13:57:05,115 - #50 consta
+INFO  13:57:05,115 - #7 =
+INFO  13:57:05,115 - #51 50
+INFO  13:57:05,115 - #13 ;
+INFO  13:57:05,115 - #50 bool
+INFO  13:57:05,115 - #50 boo
+INFO  13:57:05,116 - #50 boo
+INFO  13:57:05,116 - #13 ;
+INFO  13:57:05,116 - #50 int
+INFO  13:57:05,116 - #50 f
+INFO  13:57:05,116 - #8 [
+ERROR 13:57:05,116 - Izvrsen oporavak do ; u liniji 3
+INFO  13:57:05,116 - #9 ]
+INFO  13:57:05,116 - #6 ,
+INFO  13:57:05,117 - #6 ,
+INFO  13:57:05,117 - #8 [
+INFO  13:57:05,117 - #6 ,
+INFO  13:57:05,117 - #9 ]
+INFO  13:57:05,117 - #6 ,
+INFO  13:57:05,117 - #50 j
+INFO  13:57:05,117 - #13 ;
+INFO  13:57:05,117 - #50 char
+INFO  13:57:05,117 - #8 [
+INFO  13:57:05,117 - #9 ]
+INFO  13:57:05,118 - #6 ,
+INFO  13:57:05,118 - #50 ch
+INFO  13:57:05,118 - #13 ;
+INFO  13:57:05,118 - #50 int
+INFO  13:57:05,118 - #13 ;
+INFO  13:57:05,118 - #50 bool
+INFO  13:57:05,118 - #6 ,
+INFO  13:57:05,118 - #13 ;
+INFO  13:57:05,118 - #3 {
+INFO  13:57:05,118 - #12 void
+INFO  13:57:05,118 - #50 main
+ERROR 13:57:05,118 - Izvrsen oporavak do ; u liniji 4
+INFO  13:57:05,118 - #10 (
+INFO  13:57:05,118 - #11 )
+INFO  13:57:05,118 - #50 int
+INFO  13:57:05,119 - #50 a
+INFO  13:57:05,119 - #6 ,
+INFO  13:57:05,119 - #50 b
+INFO  13:57:05,119 - #6 ,
+INFO  13:57:05,119 - #50 c
+INFO  13:57:05,119 - #13 ;
+INFO  13:57:05,119 - #3 {
+INFO  13:57:05,119 - #50 b
+INFO  13:57:05,119 - #7 =
+INFO  13:57:05,119 - #50 a
+INFO  13:57:05,120 - #20 +
+INFO  13:57:05,120 - #13 ;
+INFO  13:57:05,120 - #50 c
+INFO  13:57:05,120 - #7 =
+INFO  13:57:05,120 - #50 a
+ERROR 13:57:05,120 - Izvrsen oporavak do ; 11
+INFO  13:57:05,120 - #18 -
+INFO  13:57:05,121 - #18 -
+INFO  13:57:05,121 - #50 c
+INFO  13:57:05,121 - #13 ;
+INFO  13:57:05,121 - #50 a
+INFO  13:57:05,121 - #7 =
+INFO  13:57:05,121 - #50 b
+ERROR 13:57:05,121 - Izvrsen oporavak do ; 12
+INFO  13:57:05,121 - #50 c
+INFO  13:57:05,121 - #13 ;
+INFO  13:57:05,121 - #50 a
+INFO  13:57:05,121 - #7 =
+INFO  13:57:05,121 - #13 ;
+ERROR 13:57:05,121 - Izvrsen oporavak do ; 13
+INFO  13:57:05,121 - #50 b
+INFO  13:57:05,121 - #7 =
+INFO  13:57:05,121 - #13 ;
+ERROR 13:57:05,121 - Izvrsen oporavak do ; 14
+INFO  13:57:05,121 - #4 }
+INFO  13:57:05,121 - #4 }
+ERROR 13:57:05,121 - Izvrsen oporavak do ; 15
+INFO  13:57:05,124 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      DecListItems(
+        NoDecList(
+        ) [NoDecList]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               consta
+               50
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [DecListItems]
+      Var(
+        VarDeclError(
+        ) [VarDeclError]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            MultipleStatements(
+              MultipleStatements(
+                NoStatements(
+                ) [NoStatements]
+                StatementDerived1(
+                ) [StatementDerived1]
+              ) [MultipleStatements]
+              StatementDerived1(
+              ) [StatementDerived1]
+            ) [MultipleStatements]
+            StatementDerived1(
+            ) [StatementDerived1]
+          ) [MultipleStatements]
+          StatementDerived1(
+          ) [StatementDerived1]
+        ) [MultipleStatements]
+        StatementDerived1(
+        ) [StatementDerived1]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  13:57:05,124 - ===================================
+INFO  13:57:05,125 - Varijabla a ubacena u tabelu simbola na liniji 9
+INFO  13:57:05,125 - Varijabla b ubacena u tabelu simbola na liniji 9
+INFO  13:57:05,125 - Varijabla c ubacena u tabelu simbola na liniji 9
+INFO  13:57:05,125 -  Print count calls = 0
+INFO  13:57:05,125 -  Deklarisanih promenljivih ima = 0
+INFO  13:57:05,125 - ===================================
+ERROR 13:57:05,125 - Parsiranje NIJE uspesno zavrseno!

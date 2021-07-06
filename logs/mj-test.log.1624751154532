@@ -1,0 +1,19 @@
+INFO  01:45:46,529 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:45:46,532 - #2 program
+INFO  01:45:46,532 - #50 Program
+INFO  01:45:46,532 - #50 int
+INFO  01:45:46,532 - #50 x
+INFO  01:45:46,532 - #13 ;
+INFO  01:45:46,532 - #3 {
+INFO  01:45:46,532 - #12 void
+INFO  01:45:46,532 - #50 main
+INFO  01:45:46,532 - #10 (
+INFO  01:45:46,532 - #11 )
+INFO  01:45:46,532 - #3 {
+INFO  01:45:46,532 - #25 print
+INFO  01:45:46,532 - #10 (
+INFO  01:45:46,532 - #36 10
+INFO  01:45:46,532 - #11 )
+INFO  01:45:46,532 - #13 ;
+INFO  01:45:46,532 - #4 }
+INFO  01:45:46,532 - #4 }

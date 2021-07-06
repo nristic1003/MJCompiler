@@ -1,0 +1,223 @@
+INFO  18:51:45,257 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:51:45,271 - #2 program
+INFO  18:51:45,271 - #51 test301
+INFO  18:51:45,271 - #5 const
+INFO  18:51:45,271 - #51 int
+INFO  18:51:45,272 - #51 nula
+INFO  18:51:45,272 - #7 =
+INFO  18:51:45,272 - #52 0
+INFO  18:51:45,272 - #13 ;
+INFO  18:51:45,272 - #5 const
+INFO  18:51:45,272 - #51 int
+INFO  18:51:45,272 - #51 jedan
+INFO  18:51:45,272 - #7 =
+INFO  18:51:45,272 - #52 1
+INFO  18:51:45,273 - #13 ;
+INFO  18:51:45,273 - #5 const
+INFO  18:51:45,273 - #51 int
+INFO  18:51:45,273 - #51 pet
+INFO  18:51:45,273 - #7 =
+INFO  18:51:45,273 - #52 5
+INFO  18:51:45,273 - #13 ;
+INFO  18:51:45,273 - #51 int
+INFO  18:51:45,273 - #51 niz
+INFO  18:51:45,273 - #8 [
+INFO  18:51:45,273 - #9 ]
+INFO  18:51:45,273 - #13 ;
+INFO  18:51:45,274 - #51 char
+INFO  18:51:45,274 - #51 nizch
+INFO  18:51:45,274 - #8 [
+INFO  18:51:45,274 - #9 ]
+INFO  18:51:45,274 - #13 ;
+INFO  18:51:45,274 - #3 {
+INFO  18:51:45,274 - #12 void
+INFO  18:51:45,274 - #51 main
+INFO  18:51:45,274 - #10 (
+INFO  18:51:45,274 - #11 )
+INFO  18:51:45,274 - #51 int
+INFO  18:51:45,275 - #51 bodovi
+INFO  18:51:45,275 - #6 ,
+INFO  18:51:45,275 - #51 t
+INFO  18:51:45,275 - #13 ;
+INFO  18:51:45,275 - #3 {
+INFO  18:51:45,275 - #51 niz
+INFO  18:51:45,275 - #7 =
+INFO  18:51:45,275 - #19 new
+INFO  18:51:45,276 - #51 int
+INFO  18:51:45,276 - #8 [
+INFO  18:51:45,276 - #52 3
+INFO  18:51:45,276 - #9 ]
+INFO  18:51:45,276 - #13 ;
+INFO  18:51:45,276 - #51 bodovi
+INFO  18:51:45,277 - #13 ;
+INFO  18:51:45,277 - #4 }
+INFO  18:51:45,277 - #4 }
+ERROR 18:51:45,277 - Izvrsen oporavak do ; 17
+INFO  18:51:45,280 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      DecListItems(
+        DecListItems(
+          DecListItems(
+            NoDecList(
+            ) [NoDecList]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [DecListItems]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [DecListItems]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [DecListItems]
+      Var(
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          SinVar(
+            SingleVar(
+             niz
+              ArrayDecl(
+              ) [ArrayDecl]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      SingleV(
+        Type(
+         char
+        ) [Type]
+        SinVar(
+          SingleVar(
+           nizch
+            ArrayDecl(
+            ) [ArrayDecl]
+          ) [SingleVar]
+        ) [SinVar]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            SinVar(
+              SingleVar(
+               bodovi
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [SinVar]
+            SingleVar(
+             t
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          NoStatements(
+          ) [NoStatements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               niz
+              ) [SingleDesignator]
+              Assignop(
+              ) [Assignop]
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    NewFactor(
+                      Type(
+                       int
+                      ) [Type]
+                      SingleExpr(
+                        OneTerm(
+                          NoMinus(
+                          ) [NoMinus]
+                          SingleFactor(
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [SingleFactor]
+                        ) [OneTerm]
+                      ) [SingleExpr]
+                    ) [NewFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [MultipleStatements]
+        StatementDerived1(
+        ) [StatementDerived1]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  18:51:45,280 - ===================================
+INFO  18:51:45,281 - Varijabla niza niz ubacena u tabelu simbola na liniji 9
+INFO  18:51:45,281 - Varijabla niza nizch ubacena u tabelu simbola na liniji 10
+INFO  18:51:45,281 - Varijabla bodovi ubacena u tabelu simbola na liniji 14
+INFO  18:51:45,281 - Varijabla t ubacena u tabelu simbola na liniji 14
+INFO  18:51:45,281 - vrednost je 1 na liniji 16
+INFO  18:51:45,281 -  Print count calls = 0
+INFO  18:51:45,281 -  Deklarisanih promenljivih ima = 0
+INFO  18:51:45,281 - Broj gresaka 0
+INFO  18:51:45,281 - ===================================
+ERROR 18:51:45,282 - Parsiranje NIJE uspesno zavrseno!

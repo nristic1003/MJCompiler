@@ -1,0 +1,197 @@
+INFO  20:43:23,013 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:43:23,026 - #2 program
+INFO  20:43:23,026 - #50 Program
+INFO  20:43:23,026 - #5 const
+INFO  20:43:23,027 - #50 int
+INFO  20:43:23,027 - #50 consta
+INFO  20:43:23,027 - #7 =
+INFO  20:43:23,027 - #51 50
+INFO  20:43:23,027 - #13 ;
+INFO  20:43:23,027 - #50 bool
+INFO  20:43:23,027 - #50 boo
+INFO  20:43:23,028 - #50 boo
+ERROR 20:43:23,028 - 
+Sintaksna greska na liniji 3
+INFO  20:43:23,028 - #13 ;
+INFO  20:43:23,028 - #50 int
+INFO  20:43:23,028 - #50 f
+INFO  20:43:23,028 - #8 [
+ERROR 20:43:23,028 - Izvrsen oporavak do ; u liniji 3
+INFO  20:43:23,028 - #9 ]
+INFO  20:43:23,028 - #6 ,
+INFO  20:43:23,029 - #6 ,
+ERROR 20:43:23,029 - 
+Sintaksna greska na liniji 4
+INFO  20:43:23,029 - #8 [
+INFO  20:43:23,029 - #6 ,
+INFO  20:43:23,029 - #9 ]
+INFO  20:43:23,029 - #6 ,
+INFO  20:43:23,029 - #50 j
+INFO  20:43:23,029 - #13 ;
+INFO  20:43:23,030 - #50 char
+INFO  20:43:23,030 - #8 [
+INFO  20:43:23,030 - #9 ]
+INFO  20:43:23,030 - #6 ,
+INFO  20:43:23,030 - #50 ch
+INFO  20:43:23,030 - #13 ;
+INFO  20:43:23,030 - #50 int
+INFO  20:43:23,030 - #13 ;
+INFO  20:43:23,030 - #50 bool
+INFO  20:43:23,030 - #6 ,
+INFO  20:43:23,030 - #13 ;
+INFO  20:43:23,030 - #3 {
+INFO  20:43:23,030 - #12 void
+INFO  20:43:23,030 - #50 main
+ERROR 20:43:23,030 - Izvrsen oporavak do ; u liniji 4
+INFO  20:43:23,030 - #10 (
+INFO  20:43:23,031 - #11 )
+INFO  20:43:23,031 - #50 int
+INFO  20:43:23,031 - #50 a
+INFO  20:43:23,031 - #6 ,
+INFO  20:43:23,031 - #50 b
+INFO  20:43:23,031 - #6 ,
+INFO  20:43:23,031 - #50 c
+INFO  20:43:23,031 - #13 ;
+INFO  20:43:23,031 - #3 {
+INFO  20:43:23,031 - #50 b
+INFO  20:43:23,032 - #7 =
+INFO  20:43:23,032 - #50 a
+INFO  20:43:23,032 - #20 +
+INFO  20:43:23,032 - #13 ;
+ERROR 20:43:23,032 - 
+Sintaksna greska na liniji 11
+INFO  20:43:23,032 - #50 c
+INFO  20:43:23,032 - #7 =
+INFO  20:43:23,032 - #50 a
+ERROR 20:43:23,033 - Izvrsen oporavak do ; u liniji 11
+INFO  20:43:23,033 - #18 -
+INFO  20:43:23,033 - #18 -
+ERROR 20:43:23,033 - 
+Sintaksna greska na liniji 12
+INFO  20:43:23,033 - #50 c
+INFO  20:43:23,033 - #13 ;
+INFO  20:43:23,033 - #50 a
+INFO  20:43:23,033 - #7 =
+INFO  20:43:23,033 - #50 b
+ERROR 20:43:23,033 - Izvrsen oporavak do ; u liniji 12
+INFO  20:43:23,033 - #50 c
+ERROR 20:43:23,033 - 
+Sintaksna greska na liniji 13
+INFO  20:43:23,033 - #13 ;
+INFO  20:43:23,033 - #50 a
+INFO  20:43:23,033 - #7 =
+INFO  20:43:23,033 - #13 ;
+ERROR 20:43:23,033 - Izvrsen oporavak do ; u liniji 13
+ERROR 20:43:23,033 - 
+Sintaksna greska na liniji 14
+INFO  20:43:23,033 - #50 b
+INFO  20:43:23,033 - #7 =
+INFO  20:43:23,033 - #13 ;
+ERROR 20:43:23,033 - Izvrsen oporavak do ; u liniji 14
+ERROR 20:43:23,033 - 
+Sintaksna greska na liniji 15
+INFO  20:43:23,033 - #4 }
+INFO  20:43:23,033 - #4 }
+ERROR 20:43:23,034 - Izvrsen oporavak do ; u liniji 15
+INFO  20:43:23,036 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      DecListItems(
+        NoDecList(
+        ) [NoDecList]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               consta
+               50
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [DecListItems]
+      Var(
+        VarDeclError(
+        ) [VarDeclError]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            MultipleStatements(
+              MultipleStatements(
+                NoStatements(
+                ) [NoStatements]
+                ErrorStmt(
+                ) [ErrorStmt]
+              ) [MultipleStatements]
+              ErrorStmt(
+              ) [ErrorStmt]
+            ) [MultipleStatements]
+            ErrorStmt(
+            ) [ErrorStmt]
+          ) [MultipleStatements]
+          ErrorStmt(
+          ) [ErrorStmt]
+        ) [MultipleStatements]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  20:43:23,036 - ===================================
+INFO  20:43:23,037 - Varijabla a ubacena u tabelu simbola na liniji 9
+INFO  20:43:23,037 - Varijabla b ubacena u tabelu simbola na liniji 9
+INFO  20:43:23,037 - Varijabla c ubacena u tabelu simbola na liniji 9
+INFO  20:43:23,037 -  Print count calls = 0
+INFO  20:43:23,037 -  Deklarisanih promenljivih ima = 0
+INFO  20:43:23,037 - ===================================

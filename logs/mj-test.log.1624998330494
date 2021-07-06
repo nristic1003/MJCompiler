@@ -1,0 +1,147 @@
+INFO  22:24:51,540 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\test1.mj
+INFO  22:24:51,554 - #2 program
+INFO  22:24:51,554 - #51 test1
+INFO  22:24:51,554 - #51 int
+INFO  22:24:51,555 - #51 y
+INFO  22:24:51,555 - #6 ,
+INFO  22:24:51,555 - #51 g
+INFO  22:24:51,555 - #6 ,
+INFO  22:24:51,556 - #51 h
+INFO  22:24:51,556 - #13 ;
+INFO  22:24:51,556 - #3 {
+INFO  22:24:51,556 - #12 void
+INFO  22:24:51,556 - #51 main
+INFO  22:24:51,556 - #10 (
+INFO  22:24:51,556 - #11 )
+INFO  22:24:51,556 - #51 int
+INFO  22:24:51,557 - #51 x
+INFO  22:24:51,557 - #13 ;
+INFO  22:24:51,557 - #3 {
+INFO  22:24:51,557 - #51 h
+INFO  22:24:51,557 - #7 =
+INFO  22:24:51,557 - #52 3
+INFO  22:24:51,558 - #13 ;
+INFO  22:24:51,558 - #25 print
+INFO  22:24:51,558 - #10 (
+INFO  22:24:51,558 - #51 h
+INFO  22:24:51,558 - #11 )
+INFO  22:24:51,558 - #13 ;
+INFO  22:24:51,558 - #4 }
+INFO  22:24:51,558 - #4 }
+INFO  22:24:51,561 - Program(
+  ProgName(
+   test1
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Var(
+      SingleV(
+        Type(
+         int
+        ) [Type]
+        VarList(
+          VarList(
+            SinVar(
+              SingleVar(
+               y
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [SinVar]
+            SingleVar(
+             g
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+          SingleVar(
+           h
+            NoArray(
+            ) [NoArray]
+          ) [SingleVar]
+        ) [VarList]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          SinVar(
+            SingleVar(
+             x
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          NoStatements(
+          ) [NoStatements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               h
+              ) [SingleDesignator]
+              Assignop(
+              ) [Assignop]
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    NumFactor(
+                     3
+                    ) [NumFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [MultipleStatements]
+        PrintStatementNoArg(
+          SingleExpr(
+            OneTerm(
+              NoMinus(
+              ) [NoMinus]
+              SingleFactor(
+                DesignFactor(
+                  SingleDesignator(
+                   h
+                  ) [SingleDesignator]
+                ) [DesignFactor]
+              ) [SingleFactor]
+            ) [OneTerm]
+          ) [SingleExpr]
+        ) [PrintStatementNoArg]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:24:51,561 - ===================================
+INFO  22:24:51,562 - Varijabla y ubacena u tabelu simbola na liniji 4
+INFO  22:24:51,562 - Varijabla g ubacena u tabelu simbola na liniji 4
+INFO  22:24:51,562 - Varijabla h ubacena u tabelu simbola na liniji 4
+INFO  22:24:51,562 - Varijabla x ubacena u tabelu simbola na liniji 8
+INFO  22:24:51,563 - vrednost je 1 na liniji 10
+INFO  22:24:51,563 -  Print count calls = 1
+INFO  22:24:51,563 -  Deklarisanih promenljivih ima = 4
+INFO  22:24:51,563 - Broj gresaka 0
+INFO  22:24:51,563 - ===================================
+INFO  22:24:51,563 - Broj gresaka u lex 0
+INFO  22:24:51,563 - Broj gresaka u syn 0
+INFO  22:24:51,563 - Broj gresaka u sem 0
+INFO  22:24:51,564 - Parsiranje uspesno zavrseno!

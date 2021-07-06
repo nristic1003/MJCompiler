@@ -1,0 +1,123 @@
+INFO  20:53:08,366 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:53:08,380 - #2 program
+INFO  20:53:08,380 - #50 Program
+INFO  20:53:08,380 - #50 int
+INFO  20:53:08,380 - #50 v
+INFO  20:53:08,381 - #13 ;
+INFO  20:53:08,381 - #3 {
+INFO  20:53:08,381 - #12 void
+INFO  20:53:08,382 - #50 main
+INFO  20:53:08,382 - #10 (
+INFO  20:53:08,382 - #11 )
+INFO  20:53:08,382 - #50 int
+INFO  20:53:08,382 - #50 a
+INFO  20:53:08,382 - #6 ,
+INFO  20:53:08,382 - #50 b
+INFO  20:53:08,382 - #6 ,
+INFO  20:53:08,382 - #50 c
+INFO  20:53:08,382 - #13 ;
+INFO  20:53:08,383 - #3 {
+INFO  20:53:08,383 - #25 print
+INFO  20:53:08,383 - #10 (
+INFO  20:53:08,383 - #51 5
+INFO  20:53:08,383 - #21 *
+INFO  20:53:08,384 - #51 5
+INFO  20:53:08,384 - #11 )
+INFO  20:53:08,384 - #13 ;
+INFO  20:53:08,384 - #4 }
+INFO  20:53:08,384 - #4 }
+INFO  20:53:08,387 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Var(
+      SingleV(
+        Type(
+         int
+        ) [Type]
+        SinVar(
+          SingleVar(
+           v
+            NoArray(
+            ) [NoArray]
+          ) [SingleVar]
+        ) [SinVar]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        NoStatements(
+        ) [NoStatements]
+        PrintStatementNoArg(
+          SingleExpr(
+            OneTerm(
+              NoMinus(
+              ) [NoMinus]
+              MultipleFactors(
+                SingleFactor(
+                  NumFactor(
+                   5
+                  ) [NumFactor]
+                ) [SingleFactor]
+                MulOperation(
+                ) [MulOperation]
+                NumFactor(
+                 5
+                ) [NumFactor]
+              ) [MultipleFactors]
+            ) [OneTerm]
+          ) [SingleExpr]
+        ) [PrintStatementNoArg]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  20:53:08,387 - ===================================
+INFO  20:53:08,388 - Varijabla v ubacena u tabelu simbola na liniji 2
+INFO  20:53:08,388 - Varijabla a ubacena u tabelu simbola na liniji 5
+INFO  20:53:08,388 - Varijabla b ubacena u tabelu simbola na liniji 5
+INFO  20:53:08,388 - Varijabla c ubacena u tabelu simbola na liniji 5
+ERROR 20:53:08,388 - Pogresni tipovi promenljive na liniji 7
+INFO  20:53:08,388 -  Print count calls = 0
+INFO  20:53:08,388 -  Deklarisanih promenljivih ima = 0
+INFO  20:53:08,389 - ===================================

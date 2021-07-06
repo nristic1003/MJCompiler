@@ -1,0 +1,160 @@
+INFO  21:13:06,346 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:13:06,359 - #2 program
+INFO  21:13:06,359 - #50 Program
+INFO  21:13:06,360 - #50 int
+INFO  21:13:06,360 - #50 arr
+INFO  21:13:06,361 - #8 [
+INFO  21:13:06,361 - #9 ]
+INFO  21:13:06,361 - #13 ;
+INFO  21:13:06,361 - #5 const
+INFO  21:13:06,362 - #50 bool
+INFO  21:13:06,362 - #50 t
+INFO  21:13:06,362 - #7 =
+INFO  21:13:06,362 - #53 true
+INFO  21:13:06,362 - #13 ;
+INFO  21:13:06,362 - #3 {
+INFO  21:13:06,362 - #12 void
+INFO  21:13:06,363 - #50 main
+INFO  21:13:06,363 - #10 (
+INFO  21:13:06,363 - #11 )
+INFO  21:13:06,363 - #50 int
+INFO  21:13:06,363 - #50 a
+INFO  21:13:06,363 - #6 ,
+INFO  21:13:06,364 - #50 b
+INFO  21:13:06,364 - #6 ,
+INFO  21:13:06,364 - #50 c
+INFO  21:13:06,364 - #13 ;
+INFO  21:13:06,364 - #3 {
+INFO  21:13:06,364 - #50 a
+INFO  21:13:06,364 - #7 =
+INFO  21:13:06,365 - #50 b
+INFO  21:13:06,365 - #20 +
+INFO  21:13:06,365 - #50 c
+INFO  21:13:06,366 - #13 ;
+INFO  21:13:06,366 - #4 }
+INFO  21:13:06,366 - #4 }
+INFO  21:13:06,369 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      NoDecList(
+      ) [NoDecList]
+      Var(
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          SinVar(
+            SingleVar(
+             arr
+              ArrayDecl(
+              ) [ArrayDecl]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [Var]
+    ) [DecListItems]
+    Constant(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        OneConst(
+          SingleBoolConst(
+           t
+           true
+          ) [SingleBoolConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        NoStatements(
+        ) [NoStatements]
+        DesStatement(
+          AssignDesign(
+            SingleDesignator(
+             a
+            ) [SingleDesignator]
+            Assignop(
+            ) [Assignop]
+            SingleExpr(
+              MultipleTerms(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       b
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+                PlusOperator(
+                ) [PlusOperator]
+                SingleFactor(
+                  DesignFactor(
+                    SingleDesignator(
+                     c
+                    ) [SingleDesignator]
+                  ) [DesignFactor]
+                ) [SingleFactor]
+              ) [MultipleTerms]
+            ) [SingleExpr]
+          ) [AssignDesign]
+        ) [DesStatement]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  21:13:06,369 - ===================================
+INFO  21:13:06,370 - Varijabla niza arr ubacena u tabelu simbola na liniji 2
+ERROR 21:13:06,370 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 21:13:06,370 - Ime: t ne predstavlja konstantu 
+INFO  21:13:06,370 - Varijabla a ubacena u tabelu simbola na liniji 5
+INFO  21:13:06,370 - Varijabla b ubacena u tabelu simbola na liniji 5
+INFO  21:13:06,370 - Varijabla c ubacena u tabelu simbola na liniji 5
+INFO  21:13:06,370 - vrednost je 1 na liniji 6
+INFO  21:13:06,371 -  Print count calls = 0
+INFO  21:13:06,371 -  Deklarisanih promenljivih ima = 0
+INFO  21:13:06,371 - ===================================

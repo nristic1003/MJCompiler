@@ -1,0 +1,18 @@
+INFO  01:32:11,429 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  01:32:11,443 - #2 program
+INFO  01:32:11,443 - #50 Program
+INFO  01:32:11,443 - #50 int
+INFO  01:32:11,443 - #50 x
+INFO  01:32:11,444 - #13 ;
+INFO  01:32:11,444 - #3 {
+INFO  01:32:11,444 - #12 void
+INFO  01:32:11,444 - #50 main
+INFO  01:32:11,444 - #10 (
+INFO  01:32:11,444 - #11 )
+INFO  01:32:11,444 - #3 {
+INFO  01:32:11,444 - #25 print
+INFO  01:32:11,445 - #10 (
+INFO  01:32:11,445 - #36 10
+ERROR 01:32:11,445 - 
+Sintaksna greska na liniji 5
+ERROR 01:32:11,445 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 5

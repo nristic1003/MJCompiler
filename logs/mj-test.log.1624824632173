@@ -1,0 +1,167 @@
+INFO  22:07:43,656 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:07:43,669 - #2 program
+INFO  22:07:43,669 - #50 Program
+INFO  22:07:43,669 - #5 const
+INFO  22:07:43,670 - #50 bool
+INFO  22:07:43,670 - #50 t
+INFO  22:07:43,670 - #7 =
+INFO  22:07:43,670 - #53 true
+INFO  22:07:43,670 - #13 ;
+INFO  22:07:43,670 - #3 {
+INFO  22:07:43,670 - #12 void
+INFO  22:07:43,671 - #50 main
+INFO  22:07:43,671 - #10 (
+INFO  22:07:43,671 - #11 )
+INFO  22:07:43,671 - #50 int
+INFO  22:07:43,671 - #50 a
+INFO  22:07:43,671 - #6 ,
+INFO  22:07:43,672 - #50 b
+INFO  22:07:43,672 - #6 ,
+INFO  22:07:43,672 - #50 c
+INFO  22:07:43,672 - #13 ;
+INFO  22:07:43,672 - #3 {
+INFO  22:07:43,672 - #30 if
+INFO  22:07:43,673 - #10 (
+INFO  22:07:43,673 - #50 t
+INFO  22:07:43,673 - #11 )
+INFO  22:07:43,673 - #25 print
+INFO  22:07:43,673 - #10 (
+INFO  22:07:43,674 - #51 5
+INFO  22:07:43,674 - #21 *
+INFO  22:07:43,674 - #51 5
+INFO  22:07:43,674 - #11 )
+INFO  22:07:43,674 - #13 ;
+INFO  22:07:43,674 - #50 else
+INFO  22:07:43,674 - #25 print
+ERROR 22:07:43,674 - 
+Sintaksna greska na liniji 8
+INFO  22:07:43,675 - #10 (
+INFO  22:07:43,675 - #51 10
+INFO  22:07:43,675 - #11 )
+INFO  22:07:43,675 - #13 ;
+INFO  22:07:43,675 - #4 }
+INFO  22:07:43,675 - #4 }
+ERROR 22:07:43,675 - Izvrsen oporavak do ; u liniji 7
+INFO  22:07:43,678 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Constant(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        OneConst(
+          SingleBoolConst(
+           t
+           true
+          ) [SingleBoolConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          NoStatements(
+          ) [NoStatements]
+          IfStmt(
+            OneCondFact(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       t
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+              NoRelOp(
+              ) [NoRelOp]
+            ) [OneCondFact]
+            PrintStatementNoArg(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  MultipleFactors(
+                    SingleFactor(
+                      NumFactor(
+                       5
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                    MulOperation(
+                    ) [MulOperation]
+                    NumFactor(
+                     5
+                    ) [NumFactor]
+                  ) [MultipleFactors]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [PrintStatementNoArg]
+            NoElseStmt(
+            ) [NoElseStmt]
+          ) [IfStmt]
+        ) [MultipleStatements]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:07:43,678 - ===================================
+ERROR 22:07:43,679 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 22:07:43,679 - Ime: t ne predstavlja konstantu 
+INFO  22:07:43,679 - Varijabla a ubacena u tabelu simbola na liniji 4
+INFO  22:07:43,679 - Varijabla b ubacena u tabelu simbola na liniji 4
+INFO  22:07:43,679 - Varijabla c ubacena u tabelu simbola na liniji 4
+ERROR 22:07:43,679 - Greska kod designatora na liniji 5
+ERROR 22:07:43,680 - Pogresni tipovi promenljive na liniji 8
+ERROR 22:07:43,680 - Expr mora biti tipa bool  na liniji 4
+INFO  22:07:43,680 -  Print count calls = 0
+INFO  22:07:43,680 -  Deklarisanih promenljivih ima = 0
+INFO  22:07:43,680 - ===================================
+ERROR 22:07:43,680 - Parsiranje NIJE uspesno zavrseno!

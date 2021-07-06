@@ -1,0 +1,175 @@
+INFO  22:46:19,460 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\test1.mj
+INFO  22:46:19,474 - #2 program
+INFO  22:46:19,474 - #51 Program
+INFO  22:46:19,474 - #51 int
+INFO  22:46:19,474 - #5 const
+INFO  22:46:19,474 - #51 c
+INFO  22:46:19,474 - #7 =
+INFO  22:46:19,475 - #52 50
+INFO  22:46:19,475 - #13 ;
+INFO  22:46:19,475 - #51 int
+INFO  22:46:19,475 - #51 f
+INFO  22:46:19,475 - #8 [
+ERROR 22:46:19,475 - Izvrsen oporavak do ; u liniji 2
+INFO  22:46:19,476 - #6 ,
+INFO  22:46:19,476 - #51 j
+INFO  22:46:19,476 - #6 ,
+INFO  22:46:19,476 - #6 ,
+INFO  22:46:19,476 - #51 char
+INFO  22:46:19,476 - #8 [
+INFO  22:46:19,476 - #9 ]
+INFO  22:46:19,476 - #6 ,
+INFO  22:46:19,476 - #51 ch
+INFO  22:46:19,477 - #13 ;
+INFO  22:46:19,477 - #3 {
+INFO  22:46:19,477 - #12 void
+INFO  22:46:19,477 - #51 main
+ERROR 22:46:19,477 - Izvrsen oporavak do ; u liniji 3
+INFO  22:46:19,477 - #10 (
+INFO  22:46:19,477 - #11 )
+INFO  22:46:19,477 - #51 int
+INFO  22:46:19,477 - #51 a
+INFO  22:46:19,477 - #6 ,
+INFO  22:46:19,478 - #51 b
+INFO  22:46:19,478 - #6 ,
+INFO  22:46:19,478 - #51 c
+INFO  22:46:19,478 - #13 ;
+INFO  22:46:19,478 - #3 {
+INFO  22:46:19,478 - #51 a
+INFO  22:46:19,479 - #7 =
+INFO  22:46:19,479 - #52 3
+INFO  22:46:19,479 - #20 +
+INFO  22:46:19,479 - #52 4
+INFO  22:46:19,480 - #20 +
+INFO  22:46:19,480 - #51 f
+INFO  22:46:19,480 - #13 ;
+INFO  22:46:19,480 - #51 b
+INFO  22:46:19,480 - #7 =
+INFO  22:46:19,480 - #6 ,
+INFO  22:46:19,480 - #13 ;
+INFO  22:46:19,480 - #4 }
+INFO  22:46:19,480 - #4 }
+ERROR 22:46:19,480 - Izvrsen oporavak do ; 9
+INFO  22:46:19,484 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      NoDecList(
+      ) [NoDecList]
+      Var(
+        VarDeclError(
+        ) [VarDeclError]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      VarDeclError(
+      ) [VarDeclError]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          NoStatements(
+          ) [NoStatements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               a
+              ) [SingleDesignator]
+              Assignop(
+              ) [Assignop]
+              SingleExpr(
+                MultipleTerms(
+                  MultipleTerms(
+                    OneTerm(
+                      NoMinus(
+                      ) [NoMinus]
+                      SingleFactor(
+                        NumFactor(
+                         3
+                        ) [NumFactor]
+                      ) [SingleFactor]
+                    ) [OneTerm]
+                    PlusOperator(
+                    ) [PlusOperator]
+                    SingleFactor(
+                      NumFactor(
+                       4
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                  ) [MultipleTerms]
+                  PlusOperator(
+                  ) [PlusOperator]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       f
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [MultipleTerms]
+              ) [SingleExpr]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [MultipleStatements]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:46:19,484 - ===================================
+INFO  22:46:19,485 - Varijabla a ubacena u tabelu simbola na liniji 7
+INFO  22:46:19,485 - Varijabla b ubacena u tabelu simbola na liniji 7
+INFO  22:46:19,485 - Varijabla c ubacena u tabelu simbola na liniji 7
+ERROR 22:46:19,485 - Greska kod designatora na liniji 8 na liniji 8
+ERROR 22:46:19,486 - Expr i term moraju biti kompatibilni  na liniji 4 na liniji 4
+ERROR 22:46:19,486 - Expr i term moraju biti int type  na liniji 4 na liniji 4
+INFO  22:46:19,486 - vrednost je 1 na liniji 8
+ERROR 22:46:19,486 - Expr mora biti kompatibilan sa designator na liniji 8 na liniji 8
+INFO  22:46:19,486 -  Print count calls = 0
+INFO  22:46:19,486 -  Deklarisanih promenljivih ima = 3
+INFO  22:46:19,486 - Broj gresaka 4
+INFO  22:46:19,486 - ===================================
+INFO  22:46:19,486 - Broj gresaka u lex 0
+INFO  22:46:19,486 - Broj gresaka u syn 0
+INFO  22:46:19,486 - Broj gresaka u sem 4
+ERROR 22:46:19,486 - Parsiranje NIJE uspesno zavrseno!

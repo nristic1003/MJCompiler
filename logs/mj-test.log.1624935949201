@@ -1,0 +1,227 @@
+INFO  05:04:58,995 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  05:04:59,008 - #2 program
+INFO  05:04:59,009 - #50 test301
+INFO  05:04:59,009 - #5 const
+INFO  05:04:59,009 - #50 int
+INFO  05:04:59,009 - #50 nula
+INFO  05:04:59,010 - #7 =
+INFO  05:04:59,010 - #51 0
+INFO  05:04:59,010 - #13 ;
+INFO  05:04:59,010 - #5 const
+INFO  05:04:59,010 - #50 int
+INFO  05:04:59,010 - #50 jedan
+INFO  05:04:59,010 - #7 =
+INFO  05:04:59,010 - #51 1
+INFO  05:04:59,010 - #13 ;
+INFO  05:04:59,010 - #5 const
+INFO  05:04:59,010 - #50 int
+INFO  05:04:59,010 - #50 pet
+INFO  05:04:59,010 - #7 =
+INFO  05:04:59,011 - #51 5
+INFO  05:04:59,011 - #13 ;
+INFO  05:04:59,011 - #50 int
+INFO  05:04:59,011 - #50 niz
+INFO  05:04:59,011 - #8 [
+INFO  05:04:59,011 - #9 ]
+INFO  05:04:59,011 - #13 ;
+INFO  05:04:59,012 - #50 char
+INFO  05:04:59,012 - #50 nizch
+INFO  05:04:59,012 - #8 [
+INFO  05:04:59,012 - #9 ]
+INFO  05:04:59,012 - #13 ;
+INFO  05:04:59,012 - #3 {
+INFO  05:04:59,012 - #12 void
+INFO  05:04:59,012 - #50 main
+INFO  05:04:59,012 - #10 (
+INFO  05:04:59,012 - #11 )
+INFO  05:04:59,012 - #50 int
+INFO  05:04:59,013 - #50 bodovi
+INFO  05:04:59,013 - #13 ;
+INFO  05:04:59,013 - #3 {
+INFO  05:04:59,013 - #30 if
+INFO  05:04:59,013 - #10 (
+INFO  05:04:59,013 - #53 false
+INFO  05:04:59,014 - #11 )
+INFO  05:04:59,014 - #25 print
+INFO  05:04:59,014 - #10 (
+INFO  05:04:59,014 - #51 1
+INFO  05:04:59,014 - #11 )
+INFO  05:04:59,014 - #13 ;
+INFO  05:04:59,014 - #31 else
+INFO  05:04:59,014 - #25 print
+INFO  05:04:59,015 - #10 (
+INFO  05:04:59,015 - #51 2
+INFO  05:04:59,015 - #11 )
+INFO  05:04:59,015 - #13 ;
+INFO  05:04:59,015 - #4 }
+INFO  05:04:59,015 - #4 }
+INFO  05:04:59,018 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      DecListItems(
+        DecListItems(
+          DecListItems(
+            NoDecList(
+            ) [NoDecList]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   nula
+                   0
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [DecListItems]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 jedan
+                 1
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [DecListItems]
+        Constant(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            OneConst(
+              SingleNumConst(
+               pet
+               5
+              ) [SingleNumConst]
+            ) [OneConst]
+          ) [ConstDecl]
+        ) [Constant]
+      ) [DecListItems]
+      Var(
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          SinVar(
+            SingleVar(
+             niz
+              ArrayDecl(
+              ) [ArrayDecl]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      SingleV(
+        Type(
+         char
+        ) [Type]
+        SinVar(
+          SingleVar(
+           nizch
+            ArrayDecl(
+            ) [ArrayDecl]
+          ) [SingleVar]
+        ) [SinVar]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          SinVar(
+            SingleVar(
+             bodovi
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        NoStatements(
+        ) [NoStatements]
+        IfStatement(
+          CondIf(
+            OneCondFact(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    BoolFactor(
+                     false
+                    ) [BoolFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [OneCondFact]
+          ) [CondIf]
+          FixMatched(
+          ) [FixMatched]
+          PrintStatementNoArg(
+            SingleExpr(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  NumFactor(
+                   1
+                  ) [NumFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+            ) [SingleExpr]
+          ) [PrintStatementNoArg]
+          ElseKeyword(
+          ) [ElseKeyword]
+          PrintStatementNoArg(
+            SingleExpr(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  NumFactor(
+                   2
+                  ) [NumFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+            ) [SingleExpr]
+          ) [PrintStatementNoArg]
+          MatchedStatementElseFix(
+          ) [MatchedStatementElseFix]
+        ) [IfStatement]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  05:04:59,018 - ===================================
+INFO  05:04:59,019 - Varijabla niza niz ubacena u tabelu simbola na liniji 8
+INFO  05:04:59,020 - Varijabla niza nizch ubacena u tabelu simbola na liniji 9
+INFO  05:04:59,020 - Varijabla bodovi ubacena u tabelu simbola na liniji 13
+INFO  05:04:59,020 -  Print count calls = 2
+INFO  05:04:59,020 -  Deklarisanih promenljivih ima = 0
+INFO  05:04:59,020 - ===================================
+INFO  05:04:59,022 - Parsiranje uspesno zavrseno!

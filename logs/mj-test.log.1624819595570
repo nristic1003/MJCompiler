@@ -1,0 +1,44 @@
+INFO  20:45:58,378 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:45:58,393 - #2 program
+INFO  20:45:58,393 - #50 Program
+INFO  20:45:58,393 - #50 int
+INFO  20:45:58,393 - #50 v
+INFO  20:45:58,394 - #13 ;
+INFO  20:45:58,395 - #5 const
+INFO  20:45:58,395 - #50 bool
+INFO  20:45:58,395 - #50 t
+INFO  20:45:58,395 - #7 =
+INFO  20:45:58,395 - #53 true
+INFO  20:45:58,395 - #3 {
+ERROR 20:45:58,395 - 
+Sintaksna greska na liniji 4
+INFO  20:45:58,395 - #12 void
+INFO  20:45:58,395 - #50 main
+INFO  20:45:58,395 - #10 (
+INFO  20:45:58,396 - #11 )
+INFO  20:45:58,396 - #50 int
+INFO  20:45:58,396 - #50 a
+INFO  20:45:58,396 - #6 ,
+INFO  20:45:58,396 - #50 b
+INFO  20:45:58,396 - #6 ,
+INFO  20:45:58,396 - #50 c
+INFO  20:45:58,396 - #13 ;
+INFO  20:45:58,396 - #3 {
+INFO  20:45:58,396 - #30 if
+INFO  20:45:58,396 - #10 (
+INFO  20:45:58,396 - #50 t
+INFO  20:45:58,396 - #11 )
+INFO  20:45:58,397 - #3 {
+INFO  20:45:58,397 - #50 a
+INFO  20:45:58,397 - #7 =
+INFO  20:45:58,397 - #51 5
+INFO  20:45:58,397 - #13 ;
+INFO  20:45:58,397 - #25 print
+INFO  20:45:58,397 - #10 (
+INFO  20:45:58,397 - #50 a
+INFO  20:45:58,397 - #11 )
+INFO  20:45:58,397 - #13 ;
+INFO  20:45:58,397 - #4 }
+INFO  20:45:58,397 - #4 }
+INFO  20:45:58,397 - #4 }
+ERROR 20:45:58,397 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

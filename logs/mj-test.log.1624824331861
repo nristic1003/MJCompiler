@@ -1,0 +1,160 @@
+INFO  22:05:22,074 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:05:22,088 - #2 program
+INFO  22:05:22,088 - #50 Program
+INFO  22:05:22,088 - #5 const
+INFO  22:05:22,088 - #50 bool
+INFO  22:05:22,088 - #50 test
+INFO  22:05:22,089 - #7 =
+INFO  22:05:22,089 - #53 true
+INFO  22:05:22,089 - #13 ;
+INFO  22:05:22,089 - #3 {
+INFO  22:05:22,089 - #12 void
+INFO  22:05:22,089 - #50 main
+INFO  22:05:22,090 - #10 (
+INFO  22:05:22,090 - #11 )
+INFO  22:05:22,090 - #50 int
+INFO  22:05:22,090 - #50 a
+INFO  22:05:22,090 - #6 ,
+INFO  22:05:22,091 - #50 b
+INFO  22:05:22,091 - #6 ,
+INFO  22:05:22,091 - #50 c
+INFO  22:05:22,091 - #13 ;
+INFO  22:05:22,091 - #3 {
+INFO  22:05:22,091 - #30 if
+INFO  22:05:22,091 - #10 (
+INFO  22:05:22,091 - #50 test
+INFO  22:05:22,092 - #11 )
+INFO  22:05:22,092 - #25 print
+INFO  22:05:22,092 - #10 (
+INFO  22:05:22,092 - #50 a
+INFO  22:05:22,092 - #11 )
+INFO  22:05:22,092 - #13 ;
+INFO  22:05:22,092 - #50 else
+INFO  22:05:22,093 - #25 print
+ERROR 22:05:22,093 - 
+Sintaksna greska na liniji 8
+INFO  22:05:22,093 - #10 (
+INFO  22:05:22,093 - #51 10
+INFO  22:05:22,093 - #11 )
+INFO  22:05:22,093 - #13 ;
+INFO  22:05:22,093 - #4 }
+INFO  22:05:22,093 - #4 }
+ERROR 22:05:22,093 - Izvrsen oporavak do ; u liniji 7
+INFO  22:05:22,096 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Constant(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        OneConst(
+          SingleBoolConst(
+           test
+           true
+          ) [SingleBoolConst]
+        ) [OneConst]
+      ) [ConstDecl]
+    ) [Constant]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          NoStatements(
+          ) [NoStatements]
+          IfStmt(
+            OneCondFact(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       test
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+              NoRelOp(
+              ) [NoRelOp]
+            ) [OneCondFact]
+            PrintStatementNoArg(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       a
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [PrintStatementNoArg]
+            NoElseStmt(
+            ) [NoElseStmt]
+          ) [IfStmt]
+        ) [MultipleStatements]
+        ErrorStmt(
+        ) [ErrorStmt]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  22:05:22,097 - ===================================
+ERROR 22:05:22,098 - Nije pronadjen tip bool u tabeli simbola! 
+ERROR 22:05:22,098 - Ime: test ne predstavlja konstantu 
+INFO  22:05:22,098 - Varijabla a ubacena u tabelu simbola na liniji 4
+INFO  22:05:22,098 - Varijabla b ubacena u tabelu simbola na liniji 4
+INFO  22:05:22,098 - Varijabla c ubacena u tabelu simbola na liniji 4
+ERROR 22:05:22,098 - Greska kod designatora na liniji 5
+ERROR 22:05:22,098 - Pogresni tipovi promenljive na liniji 8
+ERROR 22:05:22,098 - Expr mora biti tipa bool  na liniji 4
+INFO  22:05:22,099 -  Print count calls = 0
+INFO  22:05:22,099 -  Deklarisanih promenljivih ima = 0
+INFO  22:05:22,099 - ===================================
+ERROR 22:05:22,099 - Parsiranje NIJE uspesno zavrseno!

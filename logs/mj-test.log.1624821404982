@@ -1,0 +1,42 @@
+INFO  21:16:36,294 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:16:36,310 - #2 program
+INFO  21:16:36,310 - #50 Program
+INFO  21:16:36,310 - #50 int
+INFO  21:16:36,310 - #50 arr
+INFO  21:16:36,311 - #8 [
+INFO  21:16:36,311 - #9 ]
+INFO  21:16:36,311 - #13 ;
+INFO  21:16:36,311 - #5 const
+INFO  21:16:36,311 - #50 bool
+INFO  21:16:36,312 - #50 t
+INFO  21:16:36,312 - #7 =
+INFO  21:16:36,312 - #53 true
+INFO  21:16:36,312 - #13 ;
+INFO  21:16:36,312 - #3 {
+INFO  21:16:36,312 - #12 void
+INFO  21:16:36,312 - #50 main
+INFO  21:16:36,312 - #10 (
+INFO  21:16:36,313 - #11 )
+INFO  21:16:36,313 - #50 int
+INFO  21:16:36,313 - #50 a
+INFO  21:16:36,313 - #6 ,
+INFO  21:16:36,313 - #50 b
+INFO  21:16:36,313 - #6 ,
+INFO  21:16:36,313 - #50 c
+INFO  21:16:36,314 - #13 ;
+INFO  21:16:36,314 - #3 {
+INFO  21:16:36,314 - #30 if
+INFO  21:16:36,314 - #10 (
+INFO  21:16:36,314 - #50 t
+INFO  21:16:36,314 - #11 )
+INFO  21:16:36,315 - #3 {
+ERROR 21:16:36,315 - 
+Sintaksna greska na liniji 7
+INFO  21:16:36,315 - #25 print
+INFO  21:16:36,315 - #10 (
+INFO  21:16:36,315 - #50 a
+INFO  21:16:36,315 - #11 )
+INFO  21:16:36,315 - #13 ;
+INFO  21:16:36,315 - #4 }
+INFO  21:16:36,315 - #4 }
+ERROR 21:16:36,315 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

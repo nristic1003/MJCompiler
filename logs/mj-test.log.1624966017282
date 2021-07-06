@@ -1,0 +1,1391 @@
+INFO  13:07:32,877 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  13:07:32,890 - #2 program
+INFO  13:07:32,890 - #50 test301
+INFO  13:07:32,890 - #5 const
+INFO  13:07:32,891 - #50 int
+INFO  13:07:32,891 - #50 nula
+INFO  13:07:32,892 - #7 =
+INFO  13:07:32,892 - #51 0
+INFO  13:07:32,892 - #13 ;
+INFO  13:07:32,892 - #5 const
+INFO  13:07:32,892 - #50 int
+INFO  13:07:32,892 - #50 jedan
+INFO  13:07:32,892 - #7 =
+INFO  13:07:32,892 - #51 1
+INFO  13:07:32,892 - #13 ;
+INFO  13:07:32,892 - #5 const
+INFO  13:07:32,892 - #50 int
+INFO  13:07:32,892 - #50 pet
+INFO  13:07:32,892 - #7 =
+INFO  13:07:32,892 - #51 5
+INFO  13:07:32,893 - #13 ;
+INFO  13:07:32,893 - #50 int
+INFO  13:07:32,893 - #50 niz
+INFO  13:07:32,893 - #8 [
+INFO  13:07:32,893 - #9 ]
+INFO  13:07:32,893 - #13 ;
+INFO  13:07:32,893 - #50 char
+INFO  13:07:32,894 - #50 nizch
+INFO  13:07:32,894 - #8 [
+INFO  13:07:32,894 - #9 ]
+INFO  13:07:32,894 - #13 ;
+INFO  13:07:32,894 - #50 int
+INFO  13:07:32,894 - #50 t
+INFO  13:07:32,894 - #13 ;
+INFO  13:07:32,894 - #3 {
+INFO  13:07:32,894 - #12 void
+INFO  13:07:32,894 - #50 main
+INFO  13:07:32,894 - #10 (
+INFO  13:07:32,895 - #11 )
+INFO  13:07:32,895 - #50 int
+INFO  13:07:32,895 - #50 bodovi
+INFO  13:07:32,895 - #13 ;
+INFO  13:07:32,895 - #3 {
+INFO  13:07:32,895 - #50 bodovi
+INFO  13:07:32,895 - #7 =
+INFO  13:07:32,895 - #51 0
+INFO  13:07:32,896 - #13 ;
+INFO  13:07:32,896 - #50 bodovi
+INFO  13:07:32,896 - #14 ++
+INFO  13:07:32,896 - #13 ;
+INFO  13:07:32,896 - #50 bodovi
+INFO  13:07:32,896 - #7 =
+INFO  13:07:32,896 - #50 bodovi
+INFO  13:07:32,896 - #20 +
+INFO  13:07:32,896 - #50 jedan
+INFO  13:07:32,897 - #13 ;
+INFO  13:07:32,897 - #50 bodovi
+INFO  13:07:32,897 - #7 =
+INFO  13:07:32,897 - #50 bodovi
+INFO  13:07:32,897 - #21 *
+INFO  13:07:32,897 - #50 pet
+INFO  13:07:32,897 - #13 ;
+INFO  13:07:32,897 - #50 bodovi
+INFO  13:07:32,897 - #15 --
+INFO  13:07:32,897 - #13 ;
+INFO  13:07:32,897 - #25 print
+INFO  13:07:32,898 - #10 (
+INFO  13:07:32,898 - #50 bodovi
+INFO  13:07:32,898 - #11 )
+INFO  13:07:32,898 - #13 ;
+INFO  13:07:32,898 - #50 niz
+INFO  13:07:32,898 - #7 =
+INFO  13:07:32,898 - #19 new
+INFO  13:07:32,898 - #50 int
+INFO  13:07:32,898 - #8 [
+INFO  13:07:32,898 - #51 3
+INFO  13:07:32,898 - #9 ]
+INFO  13:07:32,898 - #13 ;
+INFO  13:07:32,898 - #50 niz
+INFO  13:07:32,898 - #8 [
+INFO  13:07:32,898 - #50 nula
+INFO  13:07:32,898 - #9 ]
+INFO  13:07:32,898 - #7 =
+INFO  13:07:32,898 - #50 jedan
+INFO  13:07:32,898 - #13 ;
+INFO  13:07:32,898 - #50 niz
+INFO  13:07:32,898 - #8 [
+INFO  13:07:32,898 - #51 1
+INFO  13:07:32,898 - #9 ]
+INFO  13:07:32,898 - #7 =
+INFO  13:07:32,899 - #51 2
+INFO  13:07:32,899 - #13 ;
+INFO  13:07:32,899 - #50 niz
+INFO  13:07:32,899 - #8 [
+INFO  13:07:32,899 - #50 niz
+INFO  13:07:32,899 - #8 [
+INFO  13:07:32,899 - #50 jedan
+INFO  13:07:32,899 - #9 ]
+INFO  13:07:32,899 - #9 ]
+INFO  13:07:32,899 - #7 =
+INFO  13:07:32,899 - #50 niz
+INFO  13:07:32,899 - #8 [
+INFO  13:07:32,899 - #50 niz
+INFO  13:07:32,899 - #8 [
+INFO  13:07:32,899 - #51 0
+INFO  13:07:32,899 - #9 ]
+INFO  13:07:32,899 - #9 ]
+INFO  13:07:32,899 - #21 *
+INFO  13:07:32,899 - #51 3
+INFO  13:07:32,899 - #13 ;
+INFO  13:07:32,899 - #50 bodovi
+INFO  13:07:32,899 - #7 =
+INFO  13:07:32,899 - #50 niz
+INFO  13:07:32,899 - #8 [
+INFO  13:07:32,899 - #51 2
+INFO  13:07:32,899 - #9 ]
+INFO  13:07:32,899 - #22 /
+INFO  13:07:32,899 - #50 niz
+INFO  13:07:32,899 - #8 [
+INFO  13:07:32,900 - #51 0
+INFO  13:07:32,900 - #9 ]
+INFO  13:07:32,900 - #13 ;
+INFO  13:07:32,900 - #25 print
+INFO  13:07:32,900 - #10 (
+INFO  13:07:32,900 - #50 bodovi
+INFO  13:07:32,900 - #11 )
+INFO  13:07:32,900 - #13 ;
+INFO  13:07:32,900 - #25 print
+INFO  13:07:32,900 - #10 (
+INFO  13:07:32,900 - #50 niz
+INFO  13:07:32,900 - #8 [
+INFO  13:07:32,900 - #51 2
+INFO  13:07:32,900 - #9 ]
+INFO  13:07:32,900 - #11 )
+INFO  13:07:32,900 - #13 ;
+INFO  13:07:32,900 - #50 nizch
+INFO  13:07:32,900 - #7 =
+INFO  13:07:32,900 - #19 new
+INFO  13:07:32,900 - #50 char
+INFO  13:07:32,900 - #8 [
+INFO  13:07:32,900 - #51 3
+INFO  13:07:32,900 - #9 ]
+INFO  13:07:32,900 - #13 ;
+INFO  13:07:32,900 - #50 nizch
+INFO  13:07:32,900 - #8 [
+INFO  13:07:32,900 - #51 0
+INFO  13:07:32,900 - #9 ]
+INFO  13:07:32,900 - #7 =
+INFO  13:07:32,900 - #52 a
+INFO  13:07:32,900 - #13 ;
+INFO  13:07:32,900 - #50 nizch
+INFO  13:07:32,900 - #8 [
+INFO  13:07:32,900 - #50 jedan
+INFO  13:07:32,900 - #9 ]
+INFO  13:07:32,900 - #7 =
+INFO  13:07:32,901 - #52 b
+INFO  13:07:32,901 - #13 ;
+INFO  13:07:32,901 - #50 nizch
+INFO  13:07:32,901 - #8 [
+INFO  13:07:32,901 - #50 pet
+INFO  13:07:32,901 - #18 -
+INFO  13:07:32,901 - #51 3
+INFO  13:07:32,901 - #9 ]
+INFO  13:07:32,901 - #7 =
+INFO  13:07:32,901 - #52 c
+INFO  13:07:32,901 - #13 ;
+INFO  13:07:32,901 - #25 print
+INFO  13:07:32,901 - #10 (
+INFO  13:07:32,901 - #50 nizch
+INFO  13:07:32,901 - #8 [
+INFO  13:07:32,901 - #51 1
+INFO  13:07:32,901 - #9 ]
+INFO  13:07:32,901 - #11 )
+INFO  13:07:32,901 - #13 ;
+INFO  13:07:32,901 - #25 print
+INFO  13:07:32,901 - #10 (
+INFO  13:07:32,901 - #50 nizch
+INFO  13:07:32,901 - #8 [
+INFO  13:07:32,901 - #50 jedan
+INFO  13:07:32,902 - #21 *
+INFO  13:07:32,902 - #51 2
+INFO  13:07:32,902 - #9 ]
+INFO  13:07:32,902 - #11 )
+INFO  13:07:32,902 - #13 ;
+INFO  13:07:32,902 - #50 bodovi
+INFO  13:07:32,902 - #7 =
+INFO  13:07:32,902 - #50 bodovi
+INFO  13:07:32,902 - #20 +
+INFO  13:07:32,902 - #10 (
+INFO  13:07:32,902 - #50 pet
+INFO  13:07:32,902 - #21 *
+INFO  13:07:32,902 - #50 jedan
+INFO  13:07:32,902 - #18 -
+INFO  13:07:32,902 - #51 1
+INFO  13:07:32,902 - #11 )
+INFO  13:07:32,902 - #21 *
+INFO  13:07:32,902 - #50 bodovi
+INFO  13:07:32,902 - #18 -
+INFO  13:07:32,902 - #10 (
+INFO  13:07:32,902 - #51 3
+INFO  13:07:32,902 - #23 %
+INFO  13:07:32,902 - #51 2
+INFO  13:07:32,902 - #20 +
+INFO  13:07:32,902 - #51 3
+INFO  13:07:32,902 - #21 *
+INFO  13:07:32,902 - #51 2
+INFO  13:07:32,902 - #18 -
+INFO  13:07:32,902 - #51 3
+INFO  13:07:32,902 - #11 )
+INFO  13:07:32,902 - #13 ;
+INFO  13:07:32,902 - #25 print
+INFO  13:07:32,902 - #10 (
+INFO  13:07:32,902 - #50 bodovi
+INFO  13:07:32,902 - #11 )
+INFO  13:07:32,903 - #13 ;
+INFO  13:07:32,903 - #24 read
+INFO  13:07:32,903 - #10 (
+INFO  13:07:32,903 - #50 t
+INFO  13:07:32,903 - #11 )
+INFO  13:07:32,903 - #13 ;
+INFO  13:07:32,903 - #25 print
+INFO  13:07:32,903 - #10 (
+INFO  13:07:32,903 - #50 t
+INFO  13:07:32,903 - #11 )
+INFO  13:07:32,903 - #13 ;
+INFO  13:07:32,903 - #30 if
+INFO  13:07:32,903 - #10 (
+INFO  13:07:32,903 - #50 bodovi
+INFO  13:07:32,903 - #23 %
+INFO  13:07:32,903 - #51 2
+INFO  13:07:32,903 - #37 ==
+INFO  13:07:32,903 - #51 0
+INFO  13:07:32,903 - #11 )
+INFO  13:07:32,903 - #50 bodovi
+INFO  13:07:32,904 - #7 =
+INFO  13:07:32,904 - #50 bodovi
+INFO  13:07:32,904 - #20 +
+INFO  13:07:32,904 - #51 10
+INFO  13:07:32,904 - #13 ;
+INFO  13:07:32,904 - #30 if
+INFO  13:07:32,904 - #10 (
+INFO  13:07:32,904 - #53 false
+INFO  13:07:32,904 - #11 )
+INFO  13:07:32,904 - #25 print
+INFO  13:07:32,904 - #10 (
+INFO  13:07:32,904 - #50 bodovi
+INFO  13:07:32,904 - #20 +
+INFO  13:07:32,904 - #51 20
+INFO  13:07:32,904 - #11 )
+INFO  13:07:32,904 - #13 ;
+INFO  13:07:32,904 - #31 else
+INFO  13:07:32,904 - #25 print
+INFO  13:07:32,905 - #10 (
+INFO  13:07:32,905 - #50 bodovi
+INFO  13:07:32,905 - #11 )
+INFO  13:07:32,905 - #13 ;
+INFO  13:07:32,905 - #4 }
+INFO  13:07:32,905 - #4 }
+INFO  13:07:32,909 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DecListItems(
+    DecListItems(
+      DecListItems(
+        DecListItems(
+          DecListItems(
+            DecListItems(
+              NoDecList(
+              ) [NoDecList]
+              Constant(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  OneConst(
+                    SingleNumConst(
+                     nula
+                     0
+                    ) [SingleNumConst]
+                  ) [OneConst]
+                ) [ConstDecl]
+              ) [Constant]
+            ) [DecListItems]
+            Constant(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                OneConst(
+                  SingleNumConst(
+                   jedan
+                   1
+                  ) [SingleNumConst]
+                ) [OneConst]
+              ) [ConstDecl]
+            ) [Constant]
+          ) [DecListItems]
+          Constant(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              OneConst(
+                SingleNumConst(
+                 pet
+                 5
+                ) [SingleNumConst]
+              ) [OneConst]
+            ) [ConstDecl]
+          ) [Constant]
+        ) [DecListItems]
+        Var(
+          SingleV(
+            Type(
+             int
+            ) [Type]
+            SinVar(
+              SingleVar(
+               niz
+                ArrayDecl(
+                ) [ArrayDecl]
+              ) [SingleVar]
+            ) [SinVar]
+          ) [SingleV]
+        ) [Var]
+      ) [DecListItems]
+      Var(
+        SingleV(
+          Type(
+           char
+          ) [Type]
+          SinVar(
+            SingleVar(
+             nizch
+              ArrayDecl(
+              ) [ArrayDecl]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [Var]
+    ) [DecListItems]
+    Var(
+      SingleV(
+        Type(
+         int
+        ) [Type]
+        SinVar(
+          SingleVar(
+           t
+            NoArray(
+            ) [NoArray]
+          ) [SingleVar]
+        ) [SinVar]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          SinVar(
+            SingleVar(
+             bodovi
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [SinVar]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          MultipleStatements(
+            MultipleStatements(
+              MultipleStatements(
+                MultipleStatements(
+                  MultipleStatements(
+                    MultipleStatements(
+                      MultipleStatements(
+                        MultipleStatements(
+                          MultipleStatements(
+                            MultipleStatements(
+                              MultipleStatements(
+                                MultipleStatements(
+                                  MultipleStatements(
+                                    MultipleStatements(
+                                      MultipleStatements(
+                                        MultipleStatements(
+                                          MultipleStatements(
+                                            MultipleStatements(
+                                              MultipleStatements(
+                                                MultipleStatements(
+                                                  MultipleStatements(
+                                                    MultipleStatements(
+                                                      MultipleStatements(
+                                                        NoStatements(
+                                                        ) [NoStatements]
+                                                        DesStatement(
+                                                          AssignDesign(
+                                                            SingleDesignator(
+                                                             bodovi
+                                                            ) [SingleDesignator]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            SingleExpr(
+                                                              OneTerm(
+                                                                NoMinus(
+                                                                ) [NoMinus]
+                                                                SingleFactor(
+                                                                  NumFactor(
+                                                                   0
+                                                                  ) [NumFactor]
+                                                                ) [SingleFactor]
+                                                              ) [OneTerm]
+                                                            ) [SingleExpr]
+                                                          ) [AssignDesign]
+                                                        ) [DesStatement]
+                                                      ) [MultipleStatements]
+                                                      DesStatement(
+                                                        DesignatorPP(
+                                                          SingleDesignator(
+                                                           bodovi
+                                                          ) [SingleDesignator]
+                                                        ) [DesignatorPP]
+                                                      ) [DesStatement]
+                                                    ) [MultipleStatements]
+                                                    DesStatement(
+                                                      AssignDesign(
+                                                        SingleDesignator(
+                                                         bodovi
+                                                        ) [SingleDesignator]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        SingleExpr(
+                                                          MultipleTerms(
+                                                            OneTerm(
+                                                              NoMinus(
+                                                              ) [NoMinus]
+                                                              SingleFactor(
+                                                                DesignFactor(
+                                                                  SingleDesignator(
+                                                                   bodovi
+                                                                  ) [SingleDesignator]
+                                                                ) [DesignFactor]
+                                                              ) [SingleFactor]
+                                                            ) [OneTerm]
+                                                            PlusOperator(
+                                                            ) [PlusOperator]
+                                                            SingleFactor(
+                                                              DesignFactor(
+                                                                SingleDesignator(
+                                                                 jedan
+                                                                ) [SingleDesignator]
+                                                              ) [DesignFactor]
+                                                            ) [SingleFactor]
+                                                          ) [MultipleTerms]
+                                                        ) [SingleExpr]
+                                                      ) [AssignDesign]
+                                                    ) [DesStatement]
+                                                  ) [MultipleStatements]
+                                                  DesStatement(
+                                                    AssignDesign(
+                                                      SingleDesignator(
+                                                       bodovi
+                                                      ) [SingleDesignator]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      SingleExpr(
+                                                        OneTerm(
+                                                          NoMinus(
+                                                          ) [NoMinus]
+                                                          MultipleFactors(
+                                                            SingleFactor(
+                                                              DesignFactor(
+                                                                SingleDesignator(
+                                                                 bodovi
+                                                                ) [SingleDesignator]
+                                                              ) [DesignFactor]
+                                                            ) [SingleFactor]
+                                                            MulOperation(
+                                                            ) [MulOperation]
+                                                            DesignFactor(
+                                                              SingleDesignator(
+                                                               pet
+                                                              ) [SingleDesignator]
+                                                            ) [DesignFactor]
+                                                          ) [MultipleFactors]
+                                                        ) [OneTerm]
+                                                      ) [SingleExpr]
+                                                    ) [AssignDesign]
+                                                  ) [DesStatement]
+                                                ) [MultipleStatements]
+                                                DesStatement(
+                                                  DesignatorMM(
+                                                    SingleDesignator(
+                                                     bodovi
+                                                    ) [SingleDesignator]
+                                                  ) [DesignatorMM]
+                                                ) [DesStatement]
+                                              ) [MultipleStatements]
+                                              PrintStatementNoArg(
+                                                SingleExpr(
+                                                  OneTerm(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    SingleFactor(
+                                                      DesignFactor(
+                                                        SingleDesignator(
+                                                         bodovi
+                                                        ) [SingleDesignator]
+                                                      ) [DesignFactor]
+                                                    ) [SingleFactor]
+                                                  ) [OneTerm]
+                                                ) [SingleExpr]
+                                              ) [PrintStatementNoArg]
+                                            ) [MultipleStatements]
+                                            DesStatement(
+                                              AssignDesign(
+                                                SingleDesignator(
+                                                 niz
+                                                ) [SingleDesignator]
+                                                Assignop(
+                                                ) [Assignop]
+                                                SingleExpr(
+                                                  OneTerm(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    SingleFactor(
+                                                      NewFactor(
+                                                        Type(
+                                                         int
+                                                        ) [Type]
+                                                        SingleExpr(
+                                                          OneTerm(
+                                                            NoMinus(
+                                                            ) [NoMinus]
+                                                            SingleFactor(
+                                                              NumFactor(
+                                                               3
+                                                              ) [NumFactor]
+                                                            ) [SingleFactor]
+                                                          ) [OneTerm]
+                                                        ) [SingleExpr]
+                                                      ) [NewFactor]
+                                                    ) [SingleFactor]
+                                                  ) [OneTerm]
+                                                ) [SingleExpr]
+                                              ) [AssignDesign]
+                                            ) [DesStatement]
+                                          ) [MultipleStatements]
+                                          DesStatement(
+                                            AssignDesign(
+                                              ArrayDesignator(
+                                                DessignatorArr(
+                                                  SingleDesignator(
+                                                   niz
+                                                  ) [SingleDesignator]
+                                                ) [DessignatorArr]
+                                                SingleExpr(
+                                                  OneTerm(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    SingleFactor(
+                                                      DesignFactor(
+                                                        SingleDesignator(
+                                                         nula
+                                                        ) [SingleDesignator]
+                                                      ) [DesignFactor]
+                                                    ) [SingleFactor]
+                                                  ) [OneTerm]
+                                                ) [SingleExpr]
+                                              ) [ArrayDesignator]
+                                              Assignop(
+                                              ) [Assignop]
+                                              SingleExpr(
+                                                OneTerm(
+                                                  NoMinus(
+                                                  ) [NoMinus]
+                                                  SingleFactor(
+                                                    DesignFactor(
+                                                      SingleDesignator(
+                                                       jedan
+                                                      ) [SingleDesignator]
+                                                    ) [DesignFactor]
+                                                  ) [SingleFactor]
+                                                ) [OneTerm]
+                                              ) [SingleExpr]
+                                            ) [AssignDesign]
+                                          ) [DesStatement]
+                                        ) [MultipleStatements]
+                                        DesStatement(
+                                          AssignDesign(
+                                            ArrayDesignator(
+                                              DessignatorArr(
+                                                SingleDesignator(
+                                                 niz
+                                                ) [SingleDesignator]
+                                              ) [DessignatorArr]
+                                              SingleExpr(
+                                                OneTerm(
+                                                  NoMinus(
+                                                  ) [NoMinus]
+                                                  SingleFactor(
+                                                    NumFactor(
+                                                     1
+                                                    ) [NumFactor]
+                                                  ) [SingleFactor]
+                                                ) [OneTerm]
+                                              ) [SingleExpr]
+                                            ) [ArrayDesignator]
+                                            Assignop(
+                                            ) [Assignop]
+                                            SingleExpr(
+                                              OneTerm(
+                                                NoMinus(
+                                                ) [NoMinus]
+                                                SingleFactor(
+                                                  NumFactor(
+                                                   2
+                                                  ) [NumFactor]
+                                                ) [SingleFactor]
+                                              ) [OneTerm]
+                                            ) [SingleExpr]
+                                          ) [AssignDesign]
+                                        ) [DesStatement]
+                                      ) [MultipleStatements]
+                                      DesStatement(
+                                        AssignDesign(
+                                          ArrayDesignator(
+                                            DessignatorArr(
+                                              SingleDesignator(
+                                               niz
+                                              ) [SingleDesignator]
+                                            ) [DessignatorArr]
+                                            SingleExpr(
+                                              OneTerm(
+                                                NoMinus(
+                                                ) [NoMinus]
+                                                SingleFactor(
+                                                  DesignFactor(
+                                                    ArrayDesignator(
+                                                      DessignatorArr(
+                                                        SingleDesignator(
+                                                         niz
+                                                        ) [SingleDesignator]
+                                                      ) [DessignatorArr]
+                                                      SingleExpr(
+                                                        OneTerm(
+                                                          NoMinus(
+                                                          ) [NoMinus]
+                                                          SingleFactor(
+                                                            DesignFactor(
+                                                              SingleDesignator(
+                                                               jedan
+                                                              ) [SingleDesignator]
+                                                            ) [DesignFactor]
+                                                          ) [SingleFactor]
+                                                        ) [OneTerm]
+                                                      ) [SingleExpr]
+                                                    ) [ArrayDesignator]
+                                                  ) [DesignFactor]
+                                                ) [SingleFactor]
+                                              ) [OneTerm]
+                                            ) [SingleExpr]
+                                          ) [ArrayDesignator]
+                                          Assignop(
+                                          ) [Assignop]
+                                          SingleExpr(
+                                            OneTerm(
+                                              NoMinus(
+                                              ) [NoMinus]
+                                              MultipleFactors(
+                                                SingleFactor(
+                                                  DesignFactor(
+                                                    ArrayDesignator(
+                                                      DessignatorArr(
+                                                        SingleDesignator(
+                                                         niz
+                                                        ) [SingleDesignator]
+                                                      ) [DessignatorArr]
+                                                      SingleExpr(
+                                                        OneTerm(
+                                                          NoMinus(
+                                                          ) [NoMinus]
+                                                          SingleFactor(
+                                                            DesignFactor(
+                                                              ArrayDesignator(
+                                                                DessignatorArr(
+                                                                  SingleDesignator(
+                                                                   niz
+                                                                  ) [SingleDesignator]
+                                                                ) [DessignatorArr]
+                                                                SingleExpr(
+                                                                  OneTerm(
+                                                                    NoMinus(
+                                                                    ) [NoMinus]
+                                                                    SingleFactor(
+                                                                      NumFactor(
+                                                                       0
+                                                                      ) [NumFactor]
+                                                                    ) [SingleFactor]
+                                                                  ) [OneTerm]
+                                                                ) [SingleExpr]
+                                                              ) [ArrayDesignator]
+                                                            ) [DesignFactor]
+                                                          ) [SingleFactor]
+                                                        ) [OneTerm]
+                                                      ) [SingleExpr]
+                                                    ) [ArrayDesignator]
+                                                  ) [DesignFactor]
+                                                ) [SingleFactor]
+                                                MulOperation(
+                                                ) [MulOperation]
+                                                NumFactor(
+                                                 3
+                                                ) [NumFactor]
+                                              ) [MultipleFactors]
+                                            ) [OneTerm]
+                                          ) [SingleExpr]
+                                        ) [AssignDesign]
+                                      ) [DesStatement]
+                                    ) [MultipleStatements]
+                                    DesStatement(
+                                      AssignDesign(
+                                        SingleDesignator(
+                                         bodovi
+                                        ) [SingleDesignator]
+                                        Assignop(
+                                        ) [Assignop]
+                                        SingleExpr(
+                                          OneTerm(
+                                            NoMinus(
+                                            ) [NoMinus]
+                                            MultipleFactors(
+                                              SingleFactor(
+                                                DesignFactor(
+                                                  ArrayDesignator(
+                                                    DessignatorArr(
+                                                      SingleDesignator(
+                                                       niz
+                                                      ) [SingleDesignator]
+                                                    ) [DessignatorArr]
+                                                    SingleExpr(
+                                                      OneTerm(
+                                                        NoMinus(
+                                                        ) [NoMinus]
+                                                        SingleFactor(
+                                                          NumFactor(
+                                                           2
+                                                          ) [NumFactor]
+                                                        ) [SingleFactor]
+                                                      ) [OneTerm]
+                                                    ) [SingleExpr]
+                                                  ) [ArrayDesignator]
+                                                ) [DesignFactor]
+                                              ) [SingleFactor]
+                                              DivOperation(
+                                              ) [DivOperation]
+                                              DesignFactor(
+                                                ArrayDesignator(
+                                                  DessignatorArr(
+                                                    SingleDesignator(
+                                                     niz
+                                                    ) [SingleDesignator]
+                                                  ) [DessignatorArr]
+                                                  SingleExpr(
+                                                    OneTerm(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      SingleFactor(
+                                                        NumFactor(
+                                                         0
+                                                        ) [NumFactor]
+                                                      ) [SingleFactor]
+                                                    ) [OneTerm]
+                                                  ) [SingleExpr]
+                                                ) [ArrayDesignator]
+                                              ) [DesignFactor]
+                                            ) [MultipleFactors]
+                                          ) [OneTerm]
+                                        ) [SingleExpr]
+                                      ) [AssignDesign]
+                                    ) [DesStatement]
+                                  ) [MultipleStatements]
+                                  PrintStatementNoArg(
+                                    SingleExpr(
+                                      OneTerm(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        SingleFactor(
+                                          DesignFactor(
+                                            SingleDesignator(
+                                             bodovi
+                                            ) [SingleDesignator]
+                                          ) [DesignFactor]
+                                        ) [SingleFactor]
+                                      ) [OneTerm]
+                                    ) [SingleExpr]
+                                  ) [PrintStatementNoArg]
+                                ) [MultipleStatements]
+                                PrintStatementNoArg(
+                                  SingleExpr(
+                                    OneTerm(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      SingleFactor(
+                                        DesignFactor(
+                                          ArrayDesignator(
+                                            DessignatorArr(
+                                              SingleDesignator(
+                                               niz
+                                              ) [SingleDesignator]
+                                            ) [DessignatorArr]
+                                            SingleExpr(
+                                              OneTerm(
+                                                NoMinus(
+                                                ) [NoMinus]
+                                                SingleFactor(
+                                                  NumFactor(
+                                                   2
+                                                  ) [NumFactor]
+                                                ) [SingleFactor]
+                                              ) [OneTerm]
+                                            ) [SingleExpr]
+                                          ) [ArrayDesignator]
+                                        ) [DesignFactor]
+                                      ) [SingleFactor]
+                                    ) [OneTerm]
+                                  ) [SingleExpr]
+                                ) [PrintStatementNoArg]
+                              ) [MultipleStatements]
+                              DesStatement(
+                                AssignDesign(
+                                  SingleDesignator(
+                                   nizch
+                                  ) [SingleDesignator]
+                                  Assignop(
+                                  ) [Assignop]
+                                  SingleExpr(
+                                    OneTerm(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      SingleFactor(
+                                        NewFactor(
+                                          Type(
+                                           char
+                                          ) [Type]
+                                          SingleExpr(
+                                            OneTerm(
+                                              NoMinus(
+                                              ) [NoMinus]
+                                              SingleFactor(
+                                                NumFactor(
+                                                 3
+                                                ) [NumFactor]
+                                              ) [SingleFactor]
+                                            ) [OneTerm]
+                                          ) [SingleExpr]
+                                        ) [NewFactor]
+                                      ) [SingleFactor]
+                                    ) [OneTerm]
+                                  ) [SingleExpr]
+                                ) [AssignDesign]
+                              ) [DesStatement]
+                            ) [MultipleStatements]
+                            DesStatement(
+                              AssignDesign(
+                                ArrayDesignator(
+                                  DessignatorArr(
+                                    SingleDesignator(
+                                     nizch
+                                    ) [SingleDesignator]
+                                  ) [DessignatorArr]
+                                  SingleExpr(
+                                    OneTerm(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      SingleFactor(
+                                        NumFactor(
+                                         0
+                                        ) [NumFactor]
+                                      ) [SingleFactor]
+                                    ) [OneTerm]
+                                  ) [SingleExpr]
+                                ) [ArrayDesignator]
+                                Assignop(
+                                ) [Assignop]
+                                SingleExpr(
+                                  OneTerm(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    SingleFactor(
+                                      CharFactor(
+                                       a
+                                      ) [CharFactor]
+                                    ) [SingleFactor]
+                                  ) [OneTerm]
+                                ) [SingleExpr]
+                              ) [AssignDesign]
+                            ) [DesStatement]
+                          ) [MultipleStatements]
+                          DesStatement(
+                            AssignDesign(
+                              ArrayDesignator(
+                                DessignatorArr(
+                                  SingleDesignator(
+                                   nizch
+                                  ) [SingleDesignator]
+                                ) [DessignatorArr]
+                                SingleExpr(
+                                  OneTerm(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    SingleFactor(
+                                      DesignFactor(
+                                        SingleDesignator(
+                                         jedan
+                                        ) [SingleDesignator]
+                                      ) [DesignFactor]
+                                    ) [SingleFactor]
+                                  ) [OneTerm]
+                                ) [SingleExpr]
+                              ) [ArrayDesignator]
+                              Assignop(
+                              ) [Assignop]
+                              SingleExpr(
+                                OneTerm(
+                                  NoMinus(
+                                  ) [NoMinus]
+                                  SingleFactor(
+                                    CharFactor(
+                                     b
+                                    ) [CharFactor]
+                                  ) [SingleFactor]
+                                ) [OneTerm]
+                              ) [SingleExpr]
+                            ) [AssignDesign]
+                          ) [DesStatement]
+                        ) [MultipleStatements]
+                        DesStatement(
+                          AssignDesign(
+                            ArrayDesignator(
+                              DessignatorArr(
+                                SingleDesignator(
+                                 nizch
+                                ) [SingleDesignator]
+                              ) [DessignatorArr]
+                              SingleExpr(
+                                MultipleTerms(
+                                  OneTerm(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    SingleFactor(
+                                      DesignFactor(
+                                        SingleDesignator(
+                                         pet
+                                        ) [SingleDesignator]
+                                      ) [DesignFactor]
+                                    ) [SingleFactor]
+                                  ) [OneTerm]
+                                  MinusOperator(
+                                  ) [MinusOperator]
+                                  SingleFactor(
+                                    NumFactor(
+                                     3
+                                    ) [NumFactor]
+                                  ) [SingleFactor]
+                                ) [MultipleTerms]
+                              ) [SingleExpr]
+                            ) [ArrayDesignator]
+                            Assignop(
+                            ) [Assignop]
+                            SingleExpr(
+                              OneTerm(
+                                NoMinus(
+                                ) [NoMinus]
+                                SingleFactor(
+                                  CharFactor(
+                                   c
+                                  ) [CharFactor]
+                                ) [SingleFactor]
+                              ) [OneTerm]
+                            ) [SingleExpr]
+                          ) [AssignDesign]
+                        ) [DesStatement]
+                      ) [MultipleStatements]
+                      PrintStatementNoArg(
+                        SingleExpr(
+                          OneTerm(
+                            NoMinus(
+                            ) [NoMinus]
+                            SingleFactor(
+                              DesignFactor(
+                                ArrayDesignator(
+                                  DessignatorArr(
+                                    SingleDesignator(
+                                     nizch
+                                    ) [SingleDesignator]
+                                  ) [DessignatorArr]
+                                  SingleExpr(
+                                    OneTerm(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      SingleFactor(
+                                        NumFactor(
+                                         1
+                                        ) [NumFactor]
+                                      ) [SingleFactor]
+                                    ) [OneTerm]
+                                  ) [SingleExpr]
+                                ) [ArrayDesignator]
+                              ) [DesignFactor]
+                            ) [SingleFactor]
+                          ) [OneTerm]
+                        ) [SingleExpr]
+                      ) [PrintStatementNoArg]
+                    ) [MultipleStatements]
+                    PrintStatementNoArg(
+                      SingleExpr(
+                        OneTerm(
+                          NoMinus(
+                          ) [NoMinus]
+                          SingleFactor(
+                            DesignFactor(
+                              ArrayDesignator(
+                                DessignatorArr(
+                                  SingleDesignator(
+                                   nizch
+                                  ) [SingleDesignator]
+                                ) [DessignatorArr]
+                                SingleExpr(
+                                  OneTerm(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    MultipleFactors(
+                                      SingleFactor(
+                                        DesignFactor(
+                                          SingleDesignator(
+                                           jedan
+                                          ) [SingleDesignator]
+                                        ) [DesignFactor]
+                                      ) [SingleFactor]
+                                      MulOperation(
+                                      ) [MulOperation]
+                                      NumFactor(
+                                       2
+                                      ) [NumFactor]
+                                    ) [MultipleFactors]
+                                  ) [OneTerm]
+                                ) [SingleExpr]
+                              ) [ArrayDesignator]
+                            ) [DesignFactor]
+                          ) [SingleFactor]
+                        ) [OneTerm]
+                      ) [SingleExpr]
+                    ) [PrintStatementNoArg]
+                  ) [MultipleStatements]
+                  DesStatement(
+                    AssignDesign(
+                      SingleDesignator(
+                       bodovi
+                      ) [SingleDesignator]
+                      Assignop(
+                      ) [Assignop]
+                      SingleExpr(
+                        MultipleTerms(
+                          MultipleTerms(
+                            OneTerm(
+                              NoMinus(
+                              ) [NoMinus]
+                              SingleFactor(
+                                DesignFactor(
+                                  SingleDesignator(
+                                   bodovi
+                                  ) [SingleDesignator]
+                                ) [DesignFactor]
+                              ) [SingleFactor]
+                            ) [OneTerm]
+                            PlusOperator(
+                            ) [PlusOperator]
+                            MultipleFactors(
+                              SingleFactor(
+                                ExprFactor(
+                                  SingleExpr(
+                                    MultipleTerms(
+                                      OneTerm(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        MultipleFactors(
+                                          SingleFactor(
+                                            DesignFactor(
+                                              SingleDesignator(
+                                               pet
+                                              ) [SingleDesignator]
+                                            ) [DesignFactor]
+                                          ) [SingleFactor]
+                                          MulOperation(
+                                          ) [MulOperation]
+                                          DesignFactor(
+                                            SingleDesignator(
+                                             jedan
+                                            ) [SingleDesignator]
+                                          ) [DesignFactor]
+                                        ) [MultipleFactors]
+                                      ) [OneTerm]
+                                      MinusOperator(
+                                      ) [MinusOperator]
+                                      SingleFactor(
+                                        NumFactor(
+                                         1
+                                        ) [NumFactor]
+                                      ) [SingleFactor]
+                                    ) [MultipleTerms]
+                                  ) [SingleExpr]
+                                ) [ExprFactor]
+                              ) [SingleFactor]
+                              MulOperation(
+                              ) [MulOperation]
+                              DesignFactor(
+                                SingleDesignator(
+                                 bodovi
+                                ) [SingleDesignator]
+                              ) [DesignFactor]
+                            ) [MultipleFactors]
+                          ) [MultipleTerms]
+                          MinusOperator(
+                          ) [MinusOperator]
+                          SingleFactor(
+                            ExprFactor(
+                              SingleExpr(
+                                MultipleTerms(
+                                  MultipleTerms(
+                                    OneTerm(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      MultipleFactors(
+                                        SingleFactor(
+                                          NumFactor(
+                                           3
+                                          ) [NumFactor]
+                                        ) [SingleFactor]
+                                        ModOperation(
+                                        ) [ModOperation]
+                                        NumFactor(
+                                         2
+                                        ) [NumFactor]
+                                      ) [MultipleFactors]
+                                    ) [OneTerm]
+                                    PlusOperator(
+                                    ) [PlusOperator]
+                                    MultipleFactors(
+                                      SingleFactor(
+                                        NumFactor(
+                                         3
+                                        ) [NumFactor]
+                                      ) [SingleFactor]
+                                      MulOperation(
+                                      ) [MulOperation]
+                                      NumFactor(
+                                       2
+                                      ) [NumFactor]
+                                    ) [MultipleFactors]
+                                  ) [MultipleTerms]
+                                  MinusOperator(
+                                  ) [MinusOperator]
+                                  SingleFactor(
+                                    NumFactor(
+                                     3
+                                    ) [NumFactor]
+                                  ) [SingleFactor]
+                                ) [MultipleTerms]
+                              ) [SingleExpr]
+                            ) [ExprFactor]
+                          ) [SingleFactor]
+                        ) [MultipleTerms]
+                      ) [SingleExpr]
+                    ) [AssignDesign]
+                  ) [DesStatement]
+                ) [MultipleStatements]
+                PrintStatementNoArg(
+                  SingleExpr(
+                    OneTerm(
+                      NoMinus(
+                      ) [NoMinus]
+                      SingleFactor(
+                        DesignFactor(
+                          SingleDesignator(
+                           bodovi
+                          ) [SingleDesignator]
+                        ) [DesignFactor]
+                      ) [SingleFactor]
+                    ) [OneTerm]
+                  ) [SingleExpr]
+                ) [PrintStatementNoArg]
+              ) [MultipleStatements]
+              ReadStatement(
+                SingleDesignator(
+                 t
+                ) [SingleDesignator]
+              ) [ReadStatement]
+            ) [MultipleStatements]
+            PrintStatementNoArg(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       t
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [PrintStatementNoArg]
+          ) [MultipleStatements]
+          IfWithoutElse(
+            CondIf(
+              MultipleOperators(
+                SingleExpr(
+                  OneTerm(
+                    NoMinus(
+                    ) [NoMinus]
+                    MultipleFactors(
+                      SingleFactor(
+                        DesignFactor(
+                          SingleDesignator(
+                           bodovi
+                          ) [SingleDesignator]
+                        ) [DesignFactor]
+                      ) [SingleFactor]
+                      ModOperation(
+                      ) [ModOperation]
+                      NumFactor(
+                       2
+                      ) [NumFactor]
+                    ) [MultipleFactors]
+                  ) [OneTerm]
+                ) [SingleExpr]
+                SameRelOp(
+                ) [SameRelOp]
+                SingleExpr(
+                  OneTerm(
+                    NoMinus(
+                    ) [NoMinus]
+                    SingleFactor(
+                      NumFactor(
+                       0
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                  ) [OneTerm]
+                ) [SingleExpr]
+              ) [MultipleOperators]
+            ) [CondIf]
+            FixMatched(
+            ) [FixMatched]
+            DesStatement(
+              AssignDesign(
+                SingleDesignator(
+                 bodovi
+                ) [SingleDesignator]
+                Assignop(
+                ) [Assignop]
+                SingleExpr(
+                  MultipleTerms(
+                    OneTerm(
+                      NoMinus(
+                      ) [NoMinus]
+                      SingleFactor(
+                        DesignFactor(
+                          SingleDesignator(
+                           bodovi
+                          ) [SingleDesignator]
+                        ) [DesignFactor]
+                      ) [SingleFactor]
+                    ) [OneTerm]
+                    PlusOperator(
+                    ) [PlusOperator]
+                    SingleFactor(
+                      NumFactor(
+                       10
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                  ) [MultipleTerms]
+                ) [SingleExpr]
+              ) [AssignDesign]
+            ) [DesStatement]
+            FixUnmatched(
+            ) [FixUnmatched]
+          ) [IfWithoutElse]
+        ) [MultipleStatements]
+        IfStatement(
+          CondIf(
+            OneCondFact(
+              SingleExpr(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    BoolFactor(
+                     false
+                    ) [BoolFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+              ) [SingleExpr]
+            ) [OneCondFact]
+          ) [CondIf]
+          FixMatched(
+          ) [FixMatched]
+          PrintStatementNoArg(
+            SingleExpr(
+              MultipleTerms(
+                OneTerm(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleFactor(
+                    DesignFactor(
+                      SingleDesignator(
+                       bodovi
+                      ) [SingleDesignator]
+                    ) [DesignFactor]
+                  ) [SingleFactor]
+                ) [OneTerm]
+                PlusOperator(
+                ) [PlusOperator]
+                SingleFactor(
+                  NumFactor(
+                   20
+                  ) [NumFactor]
+                ) [SingleFactor]
+              ) [MultipleTerms]
+            ) [SingleExpr]
+          ) [PrintStatementNoArg]
+          ElseKeyword(
+          ) [ElseKeyword]
+          PrintStatementNoArg(
+            SingleExpr(
+              OneTerm(
+                NoMinus(
+                ) [NoMinus]
+                SingleFactor(
+                  DesignFactor(
+                    SingleDesignator(
+                     bodovi
+                    ) [SingleDesignator]
+                  ) [DesignFactor]
+                ) [SingleFactor]
+              ) [OneTerm]
+            ) [SingleExpr]
+          ) [PrintStatementNoArg]
+          MatchedStatementElseFix(
+          ) [MatchedStatementElseFix]
+        ) [IfStatement]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  13:07:32,910 - ===================================
+INFO  13:07:32,911 - Varijabla niza niz ubacena u tabelu simbola na liniji 9
+INFO  13:07:32,911 - Varijabla niza nizch ubacena u tabelu simbola na liniji 10
+INFO  13:07:32,911 - Varijabla t ubacena u tabelu simbola na liniji 11
+INFO  13:07:32,911 - Varijabla bodovi ubacena u tabelu simbola na liniji 14
+INFO  13:07:32,912 - vrednost je 1 na liniji 16
+INFO  13:07:32,912 - vrednost je 1 na liniji 18
+INFO  13:07:32,912 - vrednost je 1 na liniji 19
+INFO  13:07:32,912 - vrednost je 1 na liniji 24
+INFO  13:07:32,912 - vrednost je 5 na liniji 25
+INFO  13:07:32,912 - vrednost je 5 na liniji 26
+INFO  13:07:32,912 - vrednost je 5 na liniji 27
+INFO  13:07:32,912 - vrednost je 1 na liniji 28
+INFO  13:07:32,912 - vrednost je 1 na liniji 33
+INFO  13:07:32,912 - vrednost je 5 na liniji 34
+INFO  13:07:32,912 - vrednost je 5 na liniji 35
+INFO  13:07:32,912 - vrednost je 5 na liniji 36
+INFO  13:07:32,912 - vrednost je 1 na liniji 41
+INFO  13:07:32,912 - vrednost je 1 na liniji 45
+INFO  13:07:32,912 -  Print count calls = 9
+INFO  13:07:32,912 -  Deklarisanih promenljivih ima = 0
+INFO  13:07:32,912 - ===================================
+INFO  13:07:32,914 - Parsiranje uspesno zavrseno!

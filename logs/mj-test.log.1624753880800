@@ -1,0 +1,15 @@
+INFO  02:29:53,699 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  02:29:53,713 - #2 program
+INFO  02:29:53,713 - #49 Program
+INFO  02:29:53,713 - #5 const
+INFO  02:29:53,713 - #49 int
+INFO  02:29:53,714 - #49 consta
+INFO  02:29:53,714 - #7 =
+INFO  02:29:53,714 - #50 50
+INFO  02:29:53,714 - #48 ;
+INFO  02:29:53,714 - #49 bool
+INFO  02:29:53,714 - #49 boo
+INFO  02:29:53,714 - #49 boo
+ERROR 02:29:53,714 - 
+Sintaksna greska na liniji 3
+ERROR 02:29:53,715 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

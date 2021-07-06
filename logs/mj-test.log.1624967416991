@@ -1,0 +1,83 @@
+INFO  13:46:31,204 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  13:46:31,217 - #2 program
+INFO  13:46:31,217 - #50 Program
+INFO  13:46:31,217 - #5 const
+INFO  13:46:31,218 - #50 int
+INFO  13:46:31,218 - #50 consta
+INFO  13:46:31,218 - #7 =
+INFO  13:46:31,218 - #51 50
+INFO  13:46:31,218 - #13 ;
+INFO  13:46:31,218 - #50 bool
+INFO  13:46:31,218 - #50 boo
+INFO  13:46:31,219 - #50 boo
+ERROR 13:46:31,219 - 
+Sintaksna greska na liniji 3
+INFO  13:46:31,219 - #13 ;
+INFO  13:46:31,219 - #50 int
+INFO  13:46:31,219 - #50 f
+INFO  13:46:31,219 - #8 [
+ERROR 13:46:31,219 - Izvrsen oporavak do ; u liniji 3
+INFO  13:46:31,219 - #9 ]
+INFO  13:46:31,219 - #6 ,
+INFO  13:46:31,220 - #6 ,
+ERROR 13:46:31,220 - 
+Sintaksna greska na liniji 4
+INFO  13:46:31,220 - #8 [
+INFO  13:46:31,220 - #6 ,
+INFO  13:46:31,220 - #9 ]
+INFO  13:46:31,220 - #6 ,
+INFO  13:46:31,220 - #50 j
+INFO  13:46:31,220 - #13 ;
+INFO  13:46:31,220 - #50 char
+INFO  13:46:31,220 - #8 [
+INFO  13:46:31,220 - #9 ]
+INFO  13:46:31,220 - #6 ,
+INFO  13:46:31,220 - #50 ch
+INFO  13:46:31,221 - #13 ;
+INFO  13:46:31,221 - #50 int
+INFO  13:46:31,221 - #13 ;
+INFO  13:46:31,221 - #50 bool
+INFO  13:46:31,221 - #6 ,
+INFO  13:46:31,221 - #13 ;
+INFO  13:46:31,221 - #3 {
+INFO  13:46:31,221 - #12 void
+INFO  13:46:31,221 - #50 main
+ERROR 13:46:31,221 - Izvrsen oporavak do ; u liniji 4
+INFO  13:46:31,221 - #10 (
+INFO  13:46:31,221 - #11 )
+INFO  13:46:31,221 - #50 int
+INFO  13:46:31,222 - #50 a
+INFO  13:46:31,222 - #6 ,
+INFO  13:46:31,222 - #50 b
+INFO  13:46:31,222 - #6 ,
+INFO  13:46:31,222 - #50 c
+INFO  13:46:31,222 - #13 ;
+INFO  13:46:31,222 - #3 {
+INFO  13:46:31,222 - #50 b
+INFO  13:46:31,222 - #7 =
+INFO  13:46:31,222 - #50 a
+INFO  13:46:31,223 - #20 +
+INFO  13:46:31,223 - #13 ;
+ERROR 13:46:31,223 - 
+Sintaksna greska na liniji 11
+INFO  13:46:31,223 - #50 c
+INFO  13:46:31,223 - #7 =
+INFO  13:46:31,223 - #50 a
+INFO  13:46:31,223 - #18 -
+INFO  13:46:31,223 - #18 -
+INFO  13:46:31,223 - #50 c
+INFO  13:46:31,223 - #13 ;
+INFO  13:46:31,223 - #50 a
+INFO  13:46:31,223 - #7 =
+INFO  13:46:31,223 - #50 b
+INFO  13:46:31,223 - #50 c
+INFO  13:46:31,223 - #13 ;
+INFO  13:46:31,224 - #50 a
+INFO  13:46:31,224 - #7 =
+INFO  13:46:31,224 - #13 ;
+INFO  13:46:31,224 - #50 b
+INFO  13:46:31,224 - #7 =
+INFO  13:46:31,224 - #13 ;
+INFO  13:46:31,224 - #4 }
+INFO  13:46:31,224 - #4 }
+ERROR 13:46:31,224 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17

@@ -1,0 +1,150 @@
+INFO  20:29:03,503 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:29:03,518 - #2 program
+INFO  20:29:03,518 - #50 Program
+INFO  20:29:03,518 - #50 int
+INFO  20:29:03,519 - #50 v
+INFO  20:29:03,519 - #13 ;
+INFO  20:29:03,519 - #3 {
+INFO  20:29:03,520 - #12 void
+INFO  20:29:03,520 - #50 main
+INFO  20:29:03,520 - #10 (
+INFO  20:29:03,520 - #11 )
+INFO  20:29:03,520 - #50 int
+INFO  20:29:03,520 - #50 a
+INFO  20:29:03,520 - #6 ,
+INFO  20:29:03,521 - #50 b
+INFO  20:29:03,521 - #6 ,
+INFO  20:29:03,521 - #50 c
+INFO  20:29:03,521 - #13 ;
+INFO  20:29:03,521 - #3 {
+INFO  20:29:03,521 - #50 a
+INFO  20:29:03,521 - #7 =
+INFO  20:29:03,521 - #51 0
+INFO  20:29:03,522 - #20 +
+INFO  20:29:03,523 - #51 2
+INFO  20:29:03,523 - #13 ;
+INFO  20:29:03,523 - #25 print
+INFO  20:29:03,523 - #10 (
+INFO  20:29:03,523 - #50 a
+INFO  20:29:03,524 - #11 )
+INFO  20:29:03,524 - #13 ;
+INFO  20:29:03,524 - #4 }
+INFO  20:29:03,524 - #4 }
+INFO  20:29:03,527 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DecListItems(
+    NoDecList(
+    ) [NoDecList]
+    Var(
+      SingleV(
+        Type(
+         int
+        ) [Type]
+        SinVar(
+          SingleVar(
+           v
+            NoArray(
+            ) [NoArray]
+          ) [SingleVar]
+        ) [SinVar]
+      ) [SingleV]
+    ) [Var]
+  ) [DecListItems]
+  ListOfMethods(
+    NoMethods(
+    ) [NoMethods]
+    MethodDecl(
+      MethodName(
+       main
+      ) [MethodName]
+      MultipleVars(
+        NoMethodvars(
+        ) [NoMethodvars]
+        SingleV(
+          Type(
+           int
+          ) [Type]
+          VarList(
+            VarList(
+              SinVar(
+                SingleVar(
+                 a
+                  NoArray(
+                  ) [NoArray]
+                ) [SingleVar]
+              ) [SinVar]
+              SingleVar(
+               b
+                NoArray(
+                ) [NoArray]
+              ) [SingleVar]
+            ) [VarList]
+            SingleVar(
+             c
+              NoArray(
+              ) [NoArray]
+            ) [SingleVar]
+          ) [VarList]
+        ) [SingleV]
+      ) [MultipleVars]
+      MultipleStatements(
+        MultipleStatements(
+          NoStatements(
+          ) [NoStatements]
+          DesStatement(
+            AssignDesign(
+              SingleDesignator(
+               a
+              ) [SingleDesignator]
+              Assignop(
+              ) [Assignop]
+              SingleExpr(
+                MultipleTerms(
+                  OneTerm(
+                    NoMinus(
+                    ) [NoMinus]
+                    SingleFactor(
+                      NumFactor(
+                       0
+                      ) [NumFactor]
+                    ) [SingleFactor]
+                  ) [OneTerm]
+                  PlusOperator(
+                  ) [PlusOperator]
+                  SingleFactor(
+                    NumFactor(
+                     2
+                    ) [NumFactor]
+                  ) [SingleFactor]
+                ) [MultipleTerms]
+              ) [SingleExpr]
+            ) [AssignDesign]
+          ) [DesStatement]
+        ) [MultipleStatements]
+        PrintStatementNoArg(
+          SingleExpr(
+            OneTerm(
+              NoMinus(
+              ) [NoMinus]
+              SingleFactor(
+                DesignFactor(
+                  SingleDesignator(
+                   a
+                  ) [SingleDesignator]
+                ) [DesignFactor]
+              ) [SingleFactor]
+            ) [OneTerm]
+          ) [SingleExpr]
+        ) [PrintStatementNoArg]
+      ) [MultipleStatements]
+    ) [MethodDecl]
+  ) [ListOfMethods]
+) [Program]
+INFO  20:29:03,528 - ===================================
+INFO  20:29:03,529 - Varijabla v ubacena u tabelu simbola na liniji 2
+INFO  20:29:03,529 - Varijabla a ubacena u tabelu simbola na liniji 4
+INFO  20:29:03,529 - Varijabla b ubacena u tabelu simbola na liniji 4
+INFO  20:29:03,529 - Varijabla c ubacena u tabelu simbola na liniji 4
+ERROR 20:29:03,530 - Designator  mora biti promenljiva ili niz na liniji 5

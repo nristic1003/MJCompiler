@@ -1,0 +1,21 @@
+INFO  02:04:12,381 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  02:04:12,395 - #2 program
+INFO  02:04:12,396 - #50 MJProgram
+INFO  02:04:12,396 - #50 int
+INFO  02:04:12,396 - #50 x
+INFO  02:04:12,396 - #13 ;
+INFO  02:04:12,396 - #50 int
+INFO  02:04:12,397 - #50 y
+INFO  02:04:12,397 - #13 ;
+INFO  02:04:12,397 - #3 {
+INFO  02:04:12,397 - #50 int
+INFO  02:04:12,397 - #50 main
+INFO  02:04:12,397 - #10 (
+INFO  02:04:12,397 - #11 )
+INFO  02:04:12,397 - #3 {
+INFO  02:04:12,397 - #25 print
+INFO  02:04:12,398 - #10 (
+INFO  02:04:12,398 - #36 1
+ERROR 02:04:12,398 - 
+Sintaksna greska na liniji 6
+ERROR 02:04:12,398 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

@@ -1,0 +1,51 @@
+INFO  21:00:20,266 - Compiling source file: C:\Users\Nikola\eclipse-workspace\MJCompiler\test\program.mj
+INFO  21:00:20,280 - #2 program
+INFO  21:00:20,280 - #50 Program
+INFO  21:00:20,280 - #50 int
+INFO  21:00:20,280 - #50 arr
+INFO  21:00:20,281 - #8 [
+INFO  21:00:20,281 - #9 ]
+INFO  21:00:20,281 - #13 ;
+INFO  21:00:20,281 - #5 const
+INFO  21:00:20,282 - #50 bool
+INFO  21:00:20,282 - #50 t
+INFO  21:00:20,282 - #7 =
+INFO  21:00:20,282 - #53 true
+INFO  21:00:20,282 - #13 ;
+INFO  21:00:20,282 - #3 {
+INFO  21:00:20,282 - #12 void
+INFO  21:00:20,282 - #50 main
+INFO  21:00:20,282 - #10 (
+INFO  21:00:20,283 - #11 )
+INFO  21:00:20,283 - #50 int
+INFO  21:00:20,283 - #50 a
+INFO  21:00:20,283 - #6 ,
+INFO  21:00:20,283 - #50 b
+INFO  21:00:20,283 - #6 ,
+INFO  21:00:20,283 - #50 c
+INFO  21:00:20,283 - #13 ;
+INFO  21:00:20,284 - #3 {
+INFO  21:00:20,284 - #50 a
+INFO  21:00:20,284 - #7 =
+INFO  21:00:20,284 - #50 b
+INFO  21:00:20,284 - #20 +
+INFO  21:00:20,285 - #50 c
+INFO  21:00:20,285 - #13 ;
+INFO  21:00:20,285 - #30 if
+INFO  21:00:20,285 - #10 (
+INFO  21:00:20,285 - #50 t
+INFO  21:00:20,285 - #11 )
+INFO  21:00:20,285 - #3 {
+ERROR 21:00:20,286 - 
+Sintaksna greska na liniji 7
+INFO  21:00:20,286 - #50 a
+INFO  21:00:20,286 - #7 =
+INFO  21:00:20,286 - #51 3
+INFO  21:00:20,286 - #13 ;
+INFO  21:00:20,286 - #4 }
+INFO  21:00:20,286 - #4 }
+INFO  21:00:20,286 - #4 }
+ERROR 21:00:20,286 - Izvrsen oporavak do ; u liniji 7
+ERROR 21:00:20,287 - 
+Sintaksna greska na liniji 14
+ERROR 21:00:20,287 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14
